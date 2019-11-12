@@ -4,7 +4,7 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
 
-root_directory = "./objects/"
+root_directory = "/objects/"
 
 
 app = Flask(__name__)
