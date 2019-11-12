@@ -6,22 +6,25 @@ def get_all(l):
 def delete_all(l):
     l.client.delete("/")
 
-def login(l):
-    l.client.post("/login", {"username":"ellen_key", "password":"education"})
+def get_one(l, id):
+    l.client.get("/objs/" + id)
 
-def logout(l):
-    l.client.post("/logout", {"username":"ellen_key", "password":"education"})
+def put_one(l, id):
+    l.client.put("/objs/" + id, "object with id " + id)
+
+def delete_one(l, id):
+    l.client.delete("/objs/" + id)
 
 class UserBehavior(TaskSet):
     tasks = {index: 2, profile: 1}
 
     def on_start(self):
-        login(self)
+        get_all(self)
 
     def on_stop(self):
-        logout(self)
+        delete_all(self)
 
-class WebsiteUser(HttpLocust):
+class TestBed(HttpLocust):
     task_set = UserBehavior
     min_wait = 5000
     max_wait = 9000
