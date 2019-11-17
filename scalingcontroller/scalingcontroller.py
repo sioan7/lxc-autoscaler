@@ -1,4 +1,5 @@
 import os
+import math
 import lxc
 from pyhaproxy.parse import Parser
 from pyhaproxy.render import Render
@@ -10,6 +11,8 @@ import monitor
 
 # sudo apt-get install python3-lxc
 # pip3 install pyhaproxy
+
+server_capacity_per_sec = 10
 
 haproxy_config_path = "/srv/haproxyconfig/haproxy.cfg"
 loadbalancer_container = lxc.Container("loadbalancer")
@@ -42,23 +45,28 @@ def refresh_loadbalancer():
     Render(haproxy_config).dumps_to(haproxy_config_path)
     loadbalancer_container.attach_wait(lxc.attach_run_command, ["/etc/init.d/haproxy", "restart"])
 
+def scale():
+    stats = monitor.server_stats(loadbalancer_ip)
+    queued_req = int(stats["BACKEND"]["qcur"])
+    desired_nr = math.ceil((req_queued + server_capacity_per_sec) / server_capacity_per_sec)
+    delta = desired_nr - len(containers)
+    if delta > 0:
+        for _ in range(delta):
+            start_webapp_container()
+        refresh_loadbalancer()
+    elif delta < 0:
+        for i in range(-delta):
+            print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
+            c.stop()
+            containers.pop(i)
+        refresh_loadbalancer()
+
 
 if __name__ == "__main__":
     first_container = start_webapp_container() 
     refresh_loadbalancer()
     while True:
         time.sleep(1)
-        print("Wake up and scale...")
-        stats = monitor.server_stats(loadbalancer_ip)
-        modified = False
-        if len(containers) > 1:
-            for c in containers:
-                if int(stats[c.name]["qcur"]) == 0:
-                    print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
-                    c.stop()
-        if int(stats["BACKEND"]["qcur"]) > 10:
-            start_webapp_container()
-        if modified:
-            refresh_loadbalancer()
+        scale()
         
     
