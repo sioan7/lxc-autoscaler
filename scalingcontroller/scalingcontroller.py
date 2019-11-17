@@ -36,7 +36,7 @@ def refresh_loadbalancer():
         webapp_backend.add_server(pyhaproxy.config.Server(
             name = container.name,
             host = container.get_ips(timeout = 5000)[0],
-            port = "8000",
+            port = "5000",
             attributes = ["check"]
         ))
     Render(haproxy_config).dumps_to(haproxy_config_path)
@@ -44,17 +44,18 @@ def refresh_loadbalancer():
 
 
 if __name__ == "__main__":
-    first_container = start_webapp_container()
+    first_container = start_webapp_container() 
     refresh_loadbalancer()
     while True:
         time.sleep(1)
         print("Wake up and scale...")
         stats = monitor.server_stats(loadbalancer_ip)
         modified = False
-        for c in containers:
-            if int(stats[c.name]["qcur"]) == 0:
-                print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
-                c.stop()
+        if len(containers) > 1:
+            for c in containers:
+                if int(stats[c.name]["qcur"]) == 0:
+                    print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
+                    c.stop()
         if int(stats["BACKEND"]["qcur"]) > 10:
             start_webapp_container()
         if modified:

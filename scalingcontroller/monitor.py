@@ -9,6 +9,6 @@ def server_stats(stats_server_ip):
     for line in reader:
         dct = dict(line)
         svname = dct['svname']
-        if 'webapp' in svname or svname.lower() == 'backend':
+        if 'webapp' in svname or svname == 'BACKEND':
             servers[svname] = dct
     return servers
