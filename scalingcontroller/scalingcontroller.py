@@ -36,7 +36,7 @@ def refresh_loadbalancer():
         webapp_backend.add_server(pyhaproxy.config.Server(
             name = container.name,
             host = container.get_ips(timeout = 5000)[0],
-            port = "5000",
+            port = "8000",
             attributes = ["check"]
         ))
     Render(haproxy_config).dumps_to(haproxy_config_path)

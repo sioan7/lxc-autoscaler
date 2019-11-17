@@ -2,6 +2,7 @@ import os
 from flask import Flask, request, make_response, jsonify, abort
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+from waitress import serve
 
 
 root_directory = "/objects/"
@@ -48,4 +49,4 @@ def remove(obj_id):
         abort(404)
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    serve(app, host="0.0.0.0", port=8000)
