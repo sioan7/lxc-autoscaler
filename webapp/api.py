@@ -11,7 +11,7 @@ app = Flask(__name__)
 limiter = Limiter(
     app,
     key_func=get_remote_address,
-    default_limits=["2 per minute", "1 per second"],
+    default_limits=["10 per second"],
 )
 
 @app.route('/', methods=['GET'])
@@ -19,7 +19,7 @@ def get_all():
     return make_response(jsonify(os.listdir(root_directory)), 200)
 
 @app.route('/', methods=['DELETE'])
-@limiter.limit("1 per hour")
+#@limiter.limit("100 per second")
 def delete_all():
     for file in os.listdir(root_directory):
         os.remove(root_directory + file)
@@ -48,4 +48,4 @@ def remove(obj_id):
         abort(404)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

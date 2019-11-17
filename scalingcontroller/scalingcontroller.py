@@ -47,7 +47,7 @@ if __name__ == "__main__":
     first_container = start_webapp_container()
     refresh_loadbalancer()
     while True:
-        time.sleep(5)
+        time.sleep(1)
         print("Wake up and scale...")
         stats = monitor.server_stats(loadbalancer_ip)
         modified = False
