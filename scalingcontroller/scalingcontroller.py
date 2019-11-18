@@ -47,18 +47,20 @@ def refresh_loadbalancer():
 
 def scale():
     stats = monitor.server_stats(loadbalancer_ip)
-    queued_req = int(stats["BACKEND"]["qcur"])
-    desired_nr = math.ceil((req_queued + server_capacity_per_sec) / server_capacity_per_sec)
+    queued_req = int(stats["BACKEND"]["rate"])
+    desired_nr = math.ceil((queued_req + server_capacity_per_sec) / server_capacity_per_sec)
     delta = desired_nr - len(containers)
     if delta > 0:
         for _ in range(delta):
             start_webapp_container()
         refresh_loadbalancer()
     elif delta < 0:
+        container_number = len(containers)
         for i in range(-delta):
+            c = containers[i]
             print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
             c.stop()
-            containers.pop(i)
+            containers.pop(container_number - 1 - i)
         refresh_loadbalancer()
 
 
