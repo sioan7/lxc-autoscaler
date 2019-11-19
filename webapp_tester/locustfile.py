@@ -1,4 +1,5 @@
 from locust import HttpLocust, TaskSet
+import os
 import uuid
 import random
 
@@ -17,7 +18,7 @@ def get_one(l):
 def put_one(l):
     id = str(uuid.uuid4())
     object_pool.append(id)
-    l.client.put("/objs/" + id, "object with id " + id)
+    l.client.put("/objs/" + id, os.urandom(random.randrange(512, 1024 * 4096)))
 
 def delete_one(l):
     id = object_pool.pop()
