@@ -56,11 +56,11 @@ def scale():
         refresh_loadbalancer()
     elif delta < 0:
         container_number = len(containers)
-        for i in range(-delta):
+        for i in reversed(range(min(container_number, max(-delta, 0)))):
             c = containers[i]
             print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
             c.stop()
-            containers.pop(container_number - 1 - i)
+            containers.pop(i)
         refresh_loadbalancer()
 
 

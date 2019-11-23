@@ -1,43 +1,51 @@
-from locust import HttpLocust, TaskSet
+from locust import HttpLocust, TaskSequence, task, seq_task
 import os
 import uuid
 import random
 
-object_pool = []
+def between(min_wait, max_wait):
+    return lambda instance: min_wait + random.random() * (max_wait - min_wait)
 
-def get_all(l):
-    l.client.get("/")
+class FEBehaviour(TaskSequence):
+    def __init__(self, *args, **kwargs):
+        super(self.__class__, self).__init__(*args, **kwargs)
+        self.object_pool = []
 
-def delete_all(l):
-    l.client.delete("/")
+    @seq_task(3)
+    @task(2)
+    def get_all(self):
+        self.client.get("/")
 
-def get_one(l):
-    id = object_pool[random.randrange(len(object_pool) - 1)]
-    l.client.get("/objs/" + id)
+    @seq_task(2)
+    @task(8)
+    def get_one(self):
+        if len(self.object_pool) > 0:
+            id = random.choice(self.object_pool)
+            self.client.get("/objs/" + id)
 
-def put_one(l):
-    id = str(uuid.uuid4())
-    object_pool.append(id)
-    l.client.put("/objs/" + id, os.urandom(random.randrange(512, 1024 * 4096)))
+    @seq_task(1)
+    @task(8)
+    def put_one(self):
+        id = str(uuid.uuid4())
+        response = self.client.put("/objs/" + id, os.urandom(random.randrange(512, 1024 * 4096)))
+        if response.ok:
+            self.object_pool.append(id)
 
-def delete_one(l):
-    id = object_pool.pop()
-    l.client.delete("/objs/" + id)
+    @seq_task(4)
+    @task(2)
+    def delete_one(self):
+        if len(self.object_pool) > 0:
+            id = self.object_pool.pop()
+            self.client.delete("/objs/" + id)
 
-class UserBehavior(TaskSet):
-    tasks = {
-        get_all: 10,
-        put_one: 10,
-        get_one: 20,
-        delete_one: 9,
-    }
+    #@seq_task(5)
+    #@task(1)
+    def delete_all(self):
+        self.client.delete("/")
 
-    def on_stop(self):
-        delete_all(self)
 
 class TestBed(HttpLocust):
-    task_set = UserBehavior
-    min_wait = 500
-    max_wait = 1500
+    task_set = FEBehaviour
+    wait_time = between(0.5, 1.5)
     host = "http://10.0.3.191:8000"
 
