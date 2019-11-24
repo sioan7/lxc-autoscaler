@@ -43,12 +43,13 @@ def refresh_loadbalancer():
             attributes = ["check"]
         ))
     Render(haproxy_config).dumps_to(haproxy_config_path)
-    loadbalancer_container.attach_wait(lxc.attach_run_command, ["/etc/init.d/haproxy", "restart"])
+    loadbalancer_container.attach_wait(lxc.attach_run_command, ["service", "haproxy", "restart"])
 
 def scale():
     stats = monitor.server_stats(loadbalancer_ip)
-    queued_req = int(stats["BACKEND"]["rate"])
-    desired_nr = math.ceil((queued_req + 2 * server_capacity_per_sec) / server_capacity_per_sec)
+    #param = int(stats["BACKEND"]["scur"])
+    param = int(stats["BACKEND"]["rate"])
+    desired_nr = math.ceil((param + 2 * server_capacity_per_sec) / server_capacity_per_sec)
     delta = desired_nr - len(containers)
     if delta > 0:
         for _ in range(delta):
@@ -56,11 +57,8 @@ def scale():
         refresh_loadbalancer()
     elif delta < 0:
         container_number = len(containers)
-        for i in reversed(range(min(container_number, max(-delta, 0)))):
-            c = containers[i]
-            print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
-            c.stop()
-            containers.pop(i)
+        c = containers.pop()
+        c.stop()
         refresh_loadbalancer()
 
 

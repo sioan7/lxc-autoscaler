@@ -1,0 +1,206 @@
+root@10:~/Documents/cco-assignment1# ./initial_start.sh
+First webapp will be started by the scalingcontroller!
+Start loadbalancer
+Start scalingcontroller
+loadbalancer @ 10.0.3.191
+Starting webapp_9WMtBx @ 10.0.3.139
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_eaYrub @ 10.0.3.128
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_l5pEKu @ 10.0.3.104
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_8Zldpc @ 10.0.3.24
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_I2MOA1 @ 10.0.3.147
+Starting webapp_6etg6L @ 10.0.3.89
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_MeFIqP @ 10.0.3.151
+Starting webapp_dL6Jop @ 10.0.3.193
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_6bAKWO @ 10.0.3.215
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_779vHK @ 10.0.3.87
+Starting webapp_HE2thq @ 10.0.3.98
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_H4CfmG @ 10.0.3.6
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Starting webapp_5EEEdh @ 10.0.3.60
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+Refreshing loadbalancer
+Exception ignored in: <function _releaseLock at 0x7f056204bd08>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/logging/__init__.py", line 226, in _releaseLock
+RuntimeError: cannot release un-acquired lock
+Ignoring exception from logging atfork <_StderrHandler <stderr> (WARNING)> release method: cannot release un-acquired lock
+ * Stopping haproxy ...
+ * Checking /etc/haproxy/haproxy.cfg ...                                   [ ok ]
+ * Starting haproxy ...                                                    [ ok ]
+

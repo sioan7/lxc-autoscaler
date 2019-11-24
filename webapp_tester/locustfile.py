@@ -32,7 +32,7 @@ class FEBehaviour(TaskSequence):
             self.object_pool.append(id)
 
     @seq_task(4)
-    @task(2)
+    @task(6)
     def delete_one(self):
         if len(self.object_pool) > 0:
             id = self.object_pool.pop()
