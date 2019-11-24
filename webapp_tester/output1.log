@@ -1,0 +1,125 @@
+root@10:~/Documents/cco-assignment1# python3 ./scalingcontroller/stopall.py
+root@10:~/Documents/cco-assignment1# ./initial_start.sh
+First webapp will be started by the scalingcontroller!
+Start loadbalancer
+Start scalingcontroller
+loadbalancer @ 10.0.3.191
+Starting webapp_Kn2XtC @ 10.0.3.5
+Refreshing loadbalancer
+
+Starting webapp_vJDobB @ 10.0.3.155
+Refreshing loadbalancer
+
+
+Stopping container webapp_Kn2XtC @ 10.0.3.5
+Refreshing loadbalancer
+
+
+Starting webapp_pSxLpi @ 10.0.3.33
+Refreshing loadbalancer
+
+
+Stopping container webapp_vJDobB @ 10.0.3.155
+Refreshing loadbalancer
+
+
+Starting webapp_4RVLTW @ 10.0.3.235
+Starting webapp_b2g7Is @ 10.0.3.220
+Refreshing loadbalancer
+
+
+Stopping container webapp_pSxLpi @ 10.0.3.33
+Refreshing loadbalancer
+
+
+Stopping container webapp_4RVLTW @ 10.0.3.235
+Refreshing loadbalancer
+
+
+Starting webapp_bBXubh @ 10.0.3.236
+Starting webapp_Y3kr4H @ 10.0.3.11
+Refreshing loadbalancer
+
+
+Stopping container webapp_bBXubh @ 10.0.3.236
+Stopping container webapp_b2g7Is @ 10.0.3.220
+Refreshing loadbalancer
+
+
+Starting webapp_XhW3BZ @ 10.0.3.148
+Refreshing loadbalancer
+
+
+Stopping container webapp_Y3kr4H @ 10.0.3.11
+Refreshing loadbalancer
+
+
+Starting webapp_YDTf4c @ 10.0.3.170
+Refreshing loadbalancer
+
+
+Stopping container webapp_XhW3BZ @ 10.0.3.148
+Refreshing loadbalancer
+
+
+Starting webapp_p84Qm7 @ 10.0.3.193
+Refreshing loadbalancer
+
+
+Stopping container webapp_YDTf4c @ 10.0.3.170
+Refreshing loadbalancer
+
+
+Starting webapp_5V8IbX @ 10.0.3.243
+Refreshing loadbalancer
+
+
+Stopping container webapp_p84Qm7 @ 10.0.3.193
+Refreshing loadbalancer
+
+
+Starting webapp_mtqbxS @ 10.0.3.142
+Refreshing loadbalancer
+
+
+Starting webapp_aJp3LH @ 10.0.3.251
+Starting webapp_oBr8Bj @ 10.0.3.55
+Refreshing loadbalancer
+
+
+Stopping container webapp_mtqbxS @ 10.0.3.142
+Stopping container webapp_5V8IbX @ 10.0.3.243
+Refreshing loadbalancer
+
+
+Stopping container webapp_aJp3LH @ 10.0.3.251
+Refreshing loadbalancer
+
+
+Starting webapp_brbtKY @ 10.0.3.20
+Refreshing loadbalancer
+
+
+Stopping container webapp_oBr8Bj @ 10.0.3.55
+Refreshing loadbalancer
+
+
+Starting webapp_ICgjo6 @ 10.0.3.179
+Refreshing loadbalancer
+
+
+Stopping container webapp_brbtKY @ 10.0.3.20
+Refreshing loadbalancer
+
+
+Starting webapp_hYgZ6U @ 10.0.3.21
+Starting webapp_9xMjVE @ 10.0.3.218
+Refreshing loadbalancer
+
+
+Stopping container webapp_hYgZ6U @ 10.0.3.21
+Stopping container webapp_ICgjo6 @ 10.0.3.179
+Refreshing loadbalancer
+
+
+
