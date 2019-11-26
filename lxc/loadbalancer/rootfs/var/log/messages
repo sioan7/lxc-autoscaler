@@ -1,0 +1,2023 @@
+Nov 12 18:03:35 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 12 18:03:35 loadbalancer daemon.info init: starting pid 258, tty '': '/sbin/openrc default'
+Nov 12 18:03:35 loadbalancer cron.info crond[279]: crond (busybox 1.30.1) started, log level 8
+Nov 12 18:03:38 loadbalancer daemon.info init: starting pid 336, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 12 18:03:38 loadbalancer daemon.info init: starting pid 337, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 12 18:03:38 loadbalancer daemon.info init: starting pid 338, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 12 18:03:38 loadbalancer daemon.info init: starting pid 339, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 12 18:03:38 loadbalancer daemon.info init: starting pid 340, tty '': '/sbin/getty 38400 console'
+Nov 12 18:15:00 loadbalancer cron.info crond[279]: USER root pid 360 cmd run-parts /etc/periodic/15min
+Nov 12 18:30:00 loadbalancer cron.info crond[279]: USER root pid 362 cmd run-parts /etc/periodic/15min
+Nov 12 18:32:25 loadbalancer daemon.info init: starting pid 363, tty '': '/sbin/reboot'
+Nov 12 18:32:25 loadbalancer daemon.info init: starting pid 364, tty '': '/sbin/openrc shutdown'
+Nov 12 18:32:25 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 12 18:32:25 loadbalancer user.debug : Will stop PID 279
+Nov 12 18:32:25 loadbalancer user.debug : Sending signal 15 to PID 279
+Nov 12 18:32:25 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 12 18:32:25 loadbalancer user.debug : Will stop PID 251
+Nov 12 18:32:25 loadbalancer user.debug : Sending signal 15 to PID 251
+Nov 12 18:32:25 loadbalancer syslog.info syslogd exiting
+Nov 12 18:32:28 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 12 18:32:28 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 12 18:32:28 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 12 18:32:30 loadbalancer daemon.info init: starting pid 406, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 12 18:32:30 loadbalancer daemon.info init: starting pid 407, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 12 18:32:30 loadbalancer daemon.info init: starting pid 408, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 12 18:32:30 loadbalancer daemon.info init: starting pid 409, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 12 18:32:30 loadbalancer daemon.info init: starting pid 410, tty '': '/sbin/getty 38400 console'
+Nov 12 18:37:50 loadbalancer daemon.info init: starting pid 415, tty '': '/sbin/reboot'
+Nov 12 18:37:50 loadbalancer daemon.info init: starting pid 416, tty '': '/sbin/openrc shutdown'
+Nov 12 18:37:50 loadbalancer user.debug : Will stop haproxy
+Nov 12 18:37:50 loadbalancer user.debug : Will stop PID 399
+Nov 12 18:37:50 loadbalancer daemon.err /etc/init.d/start_proxy[436]: start-stop-daemon: no matching processes found
+Nov 12 18:37:50 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 12 18:37:50 loadbalancer user.debug : Will stop PID 278
+Nov 12 18:37:50 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 12 18:37:50 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 12 18:37:50 loadbalancer user.debug : Will stop PID 250
+Nov 12 18:37:50 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 12 18:37:50 loadbalancer syslog.info syslogd exiting
+Nov 12 18:37:53 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 12 18:37:53 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 12 18:37:53 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 12 18:37:55 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 12 18:37:55 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 12 18:37:55 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 12 18:37:55 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 12 18:37:55 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 12 18:45:00 loadbalancer cron.info crond[278]: USER root pid 412 cmd run-parts /etc/periodic/15min
+Nov 12 19:00:00 loadbalancer cron.info crond[278]: USER root pid 417 cmd run-parts /etc/periodic/15min
+Nov 12 19:00:00 loadbalancer cron.info crond[278]: USER root pid 418 cmd run-parts /etc/periodic/hourly
+Nov 12 19:15:00 loadbalancer cron.info crond[278]: USER root pid 429 cmd run-parts /etc/periodic/15min
+Nov 16 11:47:57 loadbalancer cron.err crond[278]: time disparity of 5301 minutes detected
+Nov 16 12:00:00 loadbalancer cron.info crond[278]: USER root pid 439 cmd run-parts /etc/periodic/15min
+Nov 16 12:00:00 loadbalancer cron.info crond[278]: USER root pid 440 cmd run-parts /etc/periodic/hourly
+Nov 16 12:15:00 loadbalancer cron.info crond[278]: USER root pid 441 cmd run-parts /etc/periodic/15min
+Nov 16 12:30:00 loadbalancer cron.info crond[278]: USER root pid 454 cmd run-parts /etc/periodic/15min
+Nov 16 12:38:51 loadbalancer daemon.info init: starting pid 455, tty '': '/sbin/reboot'
+Nov 16 12:38:51 loadbalancer daemon.info init: starting pid 456, tty '': '/sbin/openrc shutdown'
+Nov 16 12:38:51 loadbalancer user.debug : Will stop haproxy
+Nov 16 12:38:51 loadbalancer user.debug : Will stop PID 394
+Nov 16 12:38:51 loadbalancer daemon.err /etc/init.d/start_proxy[476]: start-stop-daemon: no matching processes found
+Nov 16 12:38:51 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 12:38:51 loadbalancer user.debug : Will stop PID 278
+Nov 16 12:38:51 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 12:38:51 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 12:38:51 loadbalancer user.debug : Will stop PID 250
+Nov 16 12:38:51 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 12:38:51 loadbalancer syslog.info syslogd exiting
+Nov 16 12:38:54 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 12:38:54 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 12:38:54 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 12:38:56 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 12:38:56 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 12:38:56 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 12:38:56 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 12:38:56 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 16 12:42:03 loadbalancer daemon.info init: starting pid 410, tty '': '/sbin/reboot'
+Nov 16 12:42:03 loadbalancer daemon.info init: starting pid 411, tty '': '/sbin/openrc shutdown'
+Nov 16 12:42:03 loadbalancer user.debug : Will stop haproxy
+Nov 16 12:42:03 loadbalancer user.debug : Will stop PID 389
+Nov 16 12:42:03 loadbalancer daemon.err /etc/init.d/start_proxy[431]: start-stop-daemon: no matching processes found
+Nov 16 12:42:03 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 12:42:03 loadbalancer user.debug : Will stop PID 278
+Nov 16 12:42:03 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 12:42:03 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 12:42:03 loadbalancer user.debug : Will stop PID 250
+Nov 16 12:42:03 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 12:42:03 loadbalancer syslog.info syslogd exiting
+Nov 16 12:42:06 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 12:42:06 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 12:42:06 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 12:42:07 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 12:42:07 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 12:42:07 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 12:42:07 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 12:42:07 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 16 12:44:50 loadbalancer daemon.info init: starting pid 395, tty '': '/sbin/openrc shutdown'
+Nov 16 12:44:50 loadbalancer user.debug : Will stop haproxy
+Nov 16 12:44:50 loadbalancer user.debug : Will stop PID 379
+Nov 16 12:44:50 loadbalancer daemon.err /etc/init.d/start_proxy[415]: start-stop-daemon: no matching processes found
+Nov 16 12:44:50 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 12:44:50 loadbalancer user.debug : Will stop PID 278
+Nov 16 12:44:50 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 12:44:50 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 12:44:50 loadbalancer user.debug : Will stop PID 250
+Nov 16 12:44:50 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 12:44:50 loadbalancer syslog.info syslogd exiting
+Nov 16 12:45:14 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 12:45:14 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 12:45:14 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 12:45:15 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 12:45:15 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 12:45:15 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 12:45:15 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 12:45:15 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 16 13:00:00 loadbalancer cron.info crond[278]: USER root pid 397 cmd run-parts /etc/periodic/15min
+Nov 16 13:00:00 loadbalancer cron.info crond[278]: USER root pid 398 cmd run-parts /etc/periodic/hourly
+Nov 16 13:15:00 loadbalancer cron.info crond[278]: USER root pid 399 cmd run-parts /etc/periodic/15min
+Nov 16 13:30:00 loadbalancer cron.info crond[278]: USER root pid 409 cmd run-parts /etc/periodic/15min
+Nov 16 13:45:00 loadbalancer cron.info crond[278]: USER root pid 410 cmd run-parts /etc/periodic/15min
+Nov 16 13:47:30 loadbalancer daemon.info init: starting pid 420, tty '': '/sbin/openrc shutdown'
+Nov 16 13:47:30 loadbalancer user.debug : Will stop haproxy
+Nov 16 13:47:30 loadbalancer user.debug : Will stop PID 379
+Nov 16 13:47:30 loadbalancer daemon.err /etc/init.d/start_proxy[440]: start-stop-daemon: no matching processes found
+Nov 16 13:47:30 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 13:47:30 loadbalancer user.debug : Will stop PID 278
+Nov 16 13:47:30 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 13:47:30 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 13:47:30 loadbalancer user.debug : Will stop PID 250
+Nov 16 13:47:30 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 13:47:30 loadbalancer syslog.info syslogd exiting
+Nov 16 14:00:14 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 14:00:14 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 14:00:14 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 14:00:17 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 14:00:17 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 14:00:17 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 14:00:17 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 14:00:17 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 16 14:01:16 loadbalancer daemon.info init: starting pid 366, tty '': '/sbin/openrc shutdown'
+Nov 16 14:01:16 loadbalancer user.debug : Will stop haproxy
+Nov 16 14:01:16 loadbalancer user.debug : Will stop PID 354
+Nov 16 14:01:16 loadbalancer daemon.err /etc/init.d/start_proxy[386]: start-stop-daemon: no matching processes found
+Nov 16 14:01:16 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 14:01:16 loadbalancer user.debug : Will stop PID 278
+Nov 16 14:01:16 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 14:01:16 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 14:01:16 loadbalancer user.debug : Will stop PID 250
+Nov 16 14:01:16 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 14:01:16 loadbalancer syslog.info syslogd exiting
+Nov 16 14:11:51 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 14:11:51 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 14:11:51 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 14:11:58 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 14:11:58 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 14:11:58 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 14:11:58 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 14:11:58 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 16 14:15:00 loadbalancer cron.info crond[278]: USER root pid 366 cmd run-parts /etc/periodic/15min
+Nov 16 14:24:28 loadbalancer daemon.info init: starting pid 367, tty '': '/sbin/openrc shutdown'
+Nov 16 14:24:28 loadbalancer user.debug : Will stop haproxy
+Nov 16 14:24:28 loadbalancer user.debug : Will stop PID 354
+Nov 16 14:24:28 loadbalancer daemon.err /etc/init.d/start_proxy[387]: start-stop-daemon: no matching processes found
+Nov 16 14:24:28 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 14:24:28 loadbalancer user.debug : Will stop PID 278
+Nov 16 14:24:28 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 14:24:28 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 14:24:28 loadbalancer user.debug : Will stop PID 250
+Nov 16 14:24:28 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 14:24:28 loadbalancer syslog.info syslogd exiting
+Nov 16 17:40:47 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 17:40:47 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 17:40:47 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 17:40:50 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 17:40:50 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 17:40:50 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 17:40:50 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 17:40:50 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 16 17:41:34 loadbalancer daemon.info init: starting pid 366, tty '': '/sbin/openrc shutdown'
+Nov 16 17:41:34 loadbalancer user.debug : Will stop haproxy
+Nov 16 17:41:34 loadbalancer user.debug : Will stop PID 354
+Nov 16 17:41:34 loadbalancer daemon.err /etc/init.d/start_proxy[386]: start-stop-daemon: no matching processes found
+Nov 16 17:41:34 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 17:41:34 loadbalancer user.debug : Will stop PID 278
+Nov 16 17:41:34 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 17:41:34 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 17:41:34 loadbalancer user.debug : Will stop PID 250
+Nov 16 17:41:34 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 17:41:34 loadbalancer syslog.info syslogd exiting
+Nov 16 17:42:17 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 17:42:17 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 17:42:17 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 17:42:18 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 17:42:18 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 17:42:18 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 17:42:18 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 17:42:18 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 16 17:43:20 loadbalancer daemon.info init: starting pid 391, tty '': '/sbin/openrc shutdown'
+Nov 16 17:43:20 loadbalancer user.debug : Will stop haproxy
+Nov 16 17:43:20 loadbalancer user.debug : Will stop PID 379
+Nov 16 17:43:20 loadbalancer daemon.err /etc/init.d/start_proxy[411]: start-stop-daemon: no matching processes found
+Nov 16 17:43:20 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 17:43:20 loadbalancer user.debug : Will stop PID 278
+Nov 16 17:43:20 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 17:43:20 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 17:43:20 loadbalancer user.debug : Will stop PID 250
+Nov 16 17:43:20 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 17:43:20 loadbalancer syslog.info syslogd exiting
+Nov 16 17:51:35 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 17:51:35 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 17:51:35 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 17:51:37 loadbalancer daemon.info init: starting pid 406, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 17:51:37 loadbalancer daemon.info init: starting pid 407, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 17:51:37 loadbalancer daemon.info init: starting pid 408, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 17:51:37 loadbalancer daemon.info init: starting pid 409, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 17:51:37 loadbalancer daemon.info init: starting pid 410, tty '': '/sbin/getty 38400 console'
+Nov 16 17:52:05 loadbalancer daemon.info init: starting pid 411, tty '': '/sbin/openrc shutdown'
+Nov 16 17:52:05 loadbalancer user.debug : Will stop haproxy
+Nov 16 17:52:05 loadbalancer user.debug : Will stop PID 399
+Nov 16 17:52:05 loadbalancer daemon.err /etc/init.d/start_proxy[431]: start-stop-daemon: no matching processes found
+Nov 16 17:52:05 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 17:52:05 loadbalancer user.debug : Will stop PID 278
+Nov 16 17:52:05 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 17:52:05 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 17:52:05 loadbalancer user.debug : Will stop PID 250
+Nov 16 17:52:05 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 17:52:05 loadbalancer syslog.info syslogd exiting
+Nov 16 18:00:47 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:00:47 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 18:00:47 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:00:49 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:00:49 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:00:49 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:00:49 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:00:49 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 16 18:03:22 loadbalancer daemon.info init: starting pid 406, tty '': '/sbin/openrc shutdown'
+Nov 16 18:03:22 loadbalancer user.debug : Will stop haproxy
+Nov 16 18:03:22 loadbalancer user.debug : Will stop PID 394
+Nov 16 18:03:22 loadbalancer daemon.err /etc/init.d/start_proxy[426]: start-stop-daemon: no matching processes found
+Nov 16 18:03:22 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 18:03:22 loadbalancer user.debug : Will stop PID 278
+Nov 16 18:03:22 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 18:03:23 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 18:03:23 loadbalancer syslog.info syslogd exiting
+Nov 16 18:06:53 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:06:53 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 18:06:53 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:06:55 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:06:55 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:06:55 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:06:55 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:06:55 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 16 18:08:41 loadbalancer daemon.err /etc/init.d/haproxy[424]: start-stop-daemon: failed to start `/usr/sbin/haproxy'
+Nov 16 18:08:41 loadbalancer daemon.err /etc/init.d/haproxy[406]: ERROR: haproxy failed to start
+Nov 16 18:10:01 loadbalancer daemon.info init: starting pid 454, tty '': '/sbin/openrc shutdown'
+Nov 16 18:10:01 loadbalancer user.debug : Will stop haproxy
+Nov 16 18:10:01 loadbalancer user.debug : Will stop PID 394
+Nov 16 18:10:01 loadbalancer daemon.err /etc/init.d/start_proxy[474]: start-stop-daemon: no matching processes found
+Nov 16 18:10:02 loadbalancer user.debug : Will stop PID 446
+Nov 16 18:10:02 loadbalancer user.debug : Sending signal 15 to PID 446
+Nov 16 18:10:02 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 18:10:02 loadbalancer user.debug : Will stop PID 278
+Nov 16 18:10:02 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 18:10:02 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 18:10:02 loadbalancer user.debug : Will stop PID 250
+Nov 16 18:10:02 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 18:10:02 loadbalancer syslog.info syslogd exiting
+Nov 16 18:13:13 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:13:13 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 18:13:13 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:13:14 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:13:14 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:13:14 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:13:14 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:13:14 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 16 18:13:23 loadbalancer daemon.info init: starting pid 386, tty '': '/sbin/openrc shutdown'
+Nov 16 18:13:23 loadbalancer user.debug : Will stop haproxy
+Nov 16 18:13:23 loadbalancer user.debug : Will stop PID 374
+Nov 16 18:13:23 loadbalancer daemon.err /etc/init.d/start_proxy[406]: start-stop-daemon: no matching processes found
+Nov 16 18:13:23 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 18:13:23 loadbalancer user.debug : Will stop PID 278
+Nov 16 18:13:23 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 18:13:23 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 18:13:23 loadbalancer syslog.info syslogd exiting
+Nov 16 18:14:24 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:14:24 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 18:14:24 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:14:26 loadbalancer daemon.info init: starting pid 424, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:14:26 loadbalancer daemon.info init: starting pid 425, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:14:26 loadbalancer daemon.info init: starting pid 426, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:14:26 loadbalancer daemon.info init: starting pid 427, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:14:26 loadbalancer daemon.info init: starting pid 428, tty '': '/sbin/getty 38400 console'
+Nov 16 18:14:50 loadbalancer daemon.info init: starting pid 429, tty '': '/sbin/openrc shutdown'
+Nov 16 18:14:50 loadbalancer user.debug : Will stop haproxy
+Nov 16 18:14:50 loadbalancer user.debug : Will stop PID 417
+Nov 16 18:14:50 loadbalancer daemon.err /etc/init.d/start_proxy[449]: start-stop-daemon: no matching processes found
+Nov 16 18:14:50 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 18:14:50 loadbalancer user.debug : Will stop PID 278
+Nov 16 18:14:50 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 18:14:50 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 18:14:50 loadbalancer user.debug : Will stop PID 250
+Nov 16 18:14:50 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 18:14:50 loadbalancer syslog.info syslogd exiting
+Nov 16 18:17:04 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:17:04 loadbalancer daemon.info init: starting pid 277, tty '': '/sbin/openrc default'
+Nov 16 18:17:04 loadbalancer daemon.err /etc/init.d/haproxy[273]: start-stop-daemon: failed to start `/usr/sbin/haproxy'
+Nov 16 18:17:04 loadbalancer cron.info crond[299]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:17:05 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:17:05 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:17:05 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:17:05 loadbalancer daemon.info init: starting pid 405, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:17:05 loadbalancer daemon.info init: starting pid 406, tty '': '/sbin/getty 38400 console'
+Nov 16 18:19:01 loadbalancer daemon.info init: starting pid 407, tty '': '/sbin/openrc shutdown'
+Nov 16 18:19:01 loadbalancer user.debug : Will stop haproxy
+Nov 16 18:19:01 loadbalancer user.debug : Will stop PID 395
+Nov 16 18:19:01 loadbalancer daemon.err /etc/init.d/start_proxy[427]: start-stop-daemon: no matching processes found
+Nov 16 18:19:01 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 18:19:01 loadbalancer user.debug : Will stop PID 299
+Nov 16 18:19:01 loadbalancer user.debug : Sending signal 15 to PID 299
+Nov 16 18:19:01 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 18:19:01 loadbalancer user.debug : Will stop PID 261
+Nov 16 18:19:01 loadbalancer user.debug : Sending signal 15 to PID 261
+Nov 16 18:19:01 loadbalancer syslog.info syslogd exiting
+Nov 16 18:21:04 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:21:04 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 18:21:04 loadbalancer cron.info crond[288]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:21:05 loadbalancer daemon.info init: starting pid 414, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:21:05 loadbalancer daemon.info init: starting pid 415, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:21:05 loadbalancer daemon.info init: starting pid 416, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:21:05 loadbalancer daemon.info init: starting pid 417, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:21:05 loadbalancer daemon.info init: starting pid 418, tty '': '/sbin/getty 38400 console'
+Nov 16 18:23:00 loadbalancer daemon.info init: starting pid 419, tty '': '/sbin/openrc shutdown'
+Nov 16 18:23:00 loadbalancer user.debug : Will stop haproxy
+Nov 16 18:23:00 loadbalancer user.debug : Will stop PID 407
+Nov 16 18:23:00 loadbalancer daemon.err /etc/init.d/start_proxy[439]: start-stop-daemon: no matching processes found
+Nov 16 18:23:00 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 18:23:00 loadbalancer user.debug : Will stop PID 288
+Nov 16 18:23:00 loadbalancer user.debug : Sending signal 15 to PID 288
+Nov 16 18:23:00 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 18:23:00 loadbalancer user.debug : Will stop PID 250
+Nov 16 18:23:00 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 18:23:00 loadbalancer syslog.info syslogd exiting
+Nov 16 18:26:39 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:26:39 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 18:26:39 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:26:40 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:26:40 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:26:40 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:26:40 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:26:40 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 16 18:27:47 loadbalancer daemon.info init: starting pid 419, tty '': '/sbin/openrc shutdown'
+Nov 16 18:27:47 loadbalancer user.debug : Will stop haproxy
+Nov 16 18:27:47 loadbalancer user.debug : Will stop PID 379
+Nov 16 18:27:47 loadbalancer daemon.err /etc/init.d/start_proxy[439]: start-stop-daemon: no matching processes found
+Nov 16 18:27:47 loadbalancer user.debug : Will stop PID 411
+Nov 16 18:27:47 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 16 18:27:47 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 18:27:47 loadbalancer user.debug : Will stop PID 278
+Nov 16 18:27:47 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 18:27:47 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 18:27:47 loadbalancer user.debug : Will stop PID 250
+Nov 16 18:27:47 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 18:27:47 loadbalancer syslog.info syslogd exiting
+Nov 16 18:33:11 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 18:33:11 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 18:33:11 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 18:33:12 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 18:33:12 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 18:33:12 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 18:33:12 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 18:33:12 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 16 18:36:40 loadbalancer user.debug : Will stop PID 411
+Nov 16 18:36:40 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 16 18:37:44 loadbalancer user.debug : Will stop PID 465
+Nov 16 18:37:44 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 16 18:38:58 loadbalancer user.debug : Will stop PID 519
+Nov 16 18:38:58 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 16 18:40:00 loadbalancer user.debug : Will stop PID 573
+Nov 16 18:40:00 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 16 18:43:14 loadbalancer user.debug : Will stop PID 627
+Nov 16 18:43:14 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 16 18:43:43 loadbalancer user.debug : Will stop PID 681
+Nov 16 18:43:43 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 16 18:45:00 loadbalancer cron.info crond[278]: USER root pid 743 cmd run-parts /etc/periodic/15min
+Nov 16 19:00:00 loadbalancer cron.info crond[278]: USER root pid 744 cmd run-parts /etc/periodic/15min
+Nov 16 19:00:00 loadbalancer cron.info crond[278]: USER root pid 745 cmd run-parts /etc/periodic/hourly
+Nov 16 19:01:28 loadbalancer user.debug : Will stop PID 735
+Nov 16 19:01:28 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 16 19:15:00 loadbalancer cron.info crond[278]: USER root pid 809 cmd run-parts /etc/periodic/15min
+Nov 16 19:21:10 loadbalancer user.debug : Will stop PID 792
+Nov 16 19:21:10 loadbalancer user.debug : Sending signal 15 to PID 792
+Nov 16 19:22:28 loadbalancer user.debug : Will stop PID 856
+Nov 16 19:22:28 loadbalancer user.debug : Sending signal 15 to PID 856
+Nov 16 19:30:00 loadbalancer cron.info crond[278]: USER root pid 918 cmd run-parts /etc/periodic/15min
+Nov 16 19:36:38 loadbalancer user.debug : Will stop PID 910
+Nov 16 19:36:38 loadbalancer user.debug : Sending signal 15 to PID 910
+Nov 16 19:45:00 loadbalancer cron.info crond[278]: USER root pid 982 cmd run-parts /etc/periodic/15min
+Nov 16 19:46:27 loadbalancer user.debug : Will stop PID 974
+Nov 16 19:46:27 loadbalancer user.debug : Sending signal 15 to PID 974
+Nov 16 20:00:00 loadbalancer cron.info crond[278]: USER root pid 1037 cmd run-parts /etc/periodic/15min
+Nov 16 20:00:00 loadbalancer cron.info crond[278]: USER root pid 1038 cmd run-parts /etc/periodic/hourly
+Nov 16 20:15:00 loadbalancer cron.info crond[278]: USER root pid 1048 cmd run-parts /etc/periodic/15min
+Nov 16 20:30:00 loadbalancer cron.info crond[278]: USER root pid 1049 cmd run-parts /etc/periodic/15min
+Nov 16 20:45:00 loadbalancer cron.info crond[278]: USER root pid 1059 cmd run-parts /etc/periodic/15min
+Nov 16 20:45:18 loadbalancer daemon.info init: starting pid 1060, tty '': '/sbin/openrc shutdown'
+Nov 16 20:45:18 loadbalancer user.debug : Will stop haproxy
+Nov 16 20:45:18 loadbalancer user.debug : Will stop PID 379
+Nov 16 20:45:18 loadbalancer daemon.err /etc/init.d/start_proxy[1080]: start-stop-daemon: no matching processes found
+Nov 16 20:45:18 loadbalancer user.debug : Will stop PID 1029
+Nov 16 20:45:18 loadbalancer user.debug : Sending signal 15 to PID 1029
+Nov 16 20:45:18 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 16 20:45:18 loadbalancer user.debug : Will stop PID 278
+Nov 16 20:45:18 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 16 20:45:18 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 16 20:45:18 loadbalancer user.debug : Will stop PID 250
+Nov 16 20:45:18 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 16 20:45:18 loadbalancer syslog.info syslogd exiting
+Nov 16 21:18:09 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 16 21:18:09 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 16 21:18:09 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 16 21:18:10 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 16 21:18:10 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 16 21:18:10 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 16 21:18:10 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 16 21:18:10 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 17 09:48:05 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 09:48:05 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 09:48:05 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 09:48:11 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 09:48:11 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 09:48:11 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 09:48:11 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 09:48:11 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 17 09:55:33 loadbalancer user.debug : Will stop PID 386
+Nov 17 09:55:33 loadbalancer user.debug : Sending signal 15 to PID 386
+Nov 17 10:00:00 loadbalancer cron.info crond[278]: USER root pid 448 cmd run-parts /etc/periodic/15min
+Nov 17 10:00:00 loadbalancer cron.info crond[278]: USER root pid 449 cmd run-parts /etc/periodic/hourly
+Nov 17 10:15:00 loadbalancer cron.info crond[278]: USER root pid 450 cmd run-parts /etc/periodic/15min
+Nov 17 10:30:00 loadbalancer cron.info crond[278]: USER root pid 460 cmd run-parts /etc/periodic/15min
+Nov 17 10:45:00 loadbalancer cron.info crond[278]: USER root pid 461 cmd run-parts /etc/periodic/15min
+Nov 17 11:00:00 loadbalancer cron.info crond[278]: USER root pid 471 cmd run-parts /etc/periodic/15min
+Nov 17 11:00:00 loadbalancer cron.info crond[278]: USER root pid 472 cmd run-parts /etc/periodic/hourly
+Nov 17 11:15:00 loadbalancer cron.info crond[278]: USER root pid 473 cmd run-parts /etc/periodic/15min
+Nov 17 11:16:15 loadbalancer user.debug : Will stop PID 440
+Nov 17 11:16:15 loadbalancer user.debug : Sending signal 15 to PID 440
+Nov 17 11:30:00 loadbalancer cron.info crond[278]: USER root pid 537 cmd run-parts /etc/periodic/15min
+Nov 17 11:45:00 loadbalancer cron.info crond[278]: USER root pid 538 cmd run-parts /etc/periodic/15min
+Nov 17 11:46:34 loadbalancer user.debug : Will stop PID 520
+Nov 17 11:46:34 loadbalancer user.debug : Sending signal 15 to PID 520
+Nov 17 11:48:27 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 11:48:27 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 11:48:27 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 11:48:31 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 11:48:31 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 11:48:31 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 11:48:31 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 11:48:31 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 17 11:50:41 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 11:50:41 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 11:50:41 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 11:50:43 loadbalancer daemon.info init: starting pid 406, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 11:50:43 loadbalancer daemon.info init: starting pid 407, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 11:50:43 loadbalancer daemon.info init: starting pid 408, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 11:50:43 loadbalancer daemon.info init: starting pid 409, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 11:50:43 loadbalancer daemon.info init: starting pid 410, tty '': '/sbin/getty 38400 console'
+Nov 17 11:51:35 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 11:51:35 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 11:51:35 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 11:51:36 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 11:51:36 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 11:51:36 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 11:51:36 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 11:51:36 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 17 11:52:45 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 11:52:45 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 11:52:45 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 11:52:47 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 11:52:47 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 11:52:47 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 11:52:47 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 11:52:47 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 17 11:53:42 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 11:53:42 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 11:53:42 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 11:53:43 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 11:53:43 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 11:53:43 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 11:53:43 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 11:53:43 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 17 11:54:26 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 11:54:26 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 11:54:26 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 11:54:28 loadbalancer daemon.info init: starting pid 406, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 11:54:28 loadbalancer daemon.info init: starting pid 407, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 11:54:28 loadbalancer daemon.info init: starting pid 408, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 11:54:28 loadbalancer daemon.info init: starting pid 409, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 11:54:28 loadbalancer daemon.info init: starting pid 410, tty '': '/sbin/getty 38400 console'
+Nov 17 11:59:14 loadbalancer user.debug : Will stop PID 431
+Nov 17 11:59:14 loadbalancer user.debug : Sending signal 15 to PID 431
+Nov 17 12:00:00 loadbalancer cron.info crond[278]: USER root pid 493 cmd run-parts /etc/periodic/15min
+Nov 17 12:00:00 loadbalancer cron.info crond[278]: USER root pid 494 cmd run-parts /etc/periodic/hourly
+Nov 17 12:02:44 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 12:02:44 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 12:02:44 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 12:02:46 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 12:02:46 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 12:02:46 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 12:02:46 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 12:02:46 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 17 12:15:00 loadbalancer cron.info crond[278]: USER root pid 434 cmd run-parts /etc/periodic/15min
+Nov 17 12:30:00 loadbalancer cron.info crond[278]: USER root pid 435 cmd run-parts /etc/periodic/15min
+Nov 17 12:45:00 loadbalancer cron.info crond[278]: USER root pid 445 cmd run-parts /etc/periodic/15min
+Nov 17 13:00:00 loadbalancer cron.info crond[278]: USER root pid 446 cmd run-parts /etc/periodic/15min
+Nov 17 13:00:00 loadbalancer cron.info crond[278]: USER root pid 447 cmd run-parts /etc/periodic/hourly
+Nov 17 13:04:05 loadbalancer daemon.info init: starting pid 457, tty '': '/sbin/openrc shutdown'
+Nov 17 13:04:05 loadbalancer user.debug : Will stop haproxy
+Nov 17 13:04:05 loadbalancer user.debug : Will stop PID 394
+Nov 17 13:04:05 loadbalancer daemon.err /etc/init.d/start_proxy[477]: start-stop-daemon: no matching processes found
+Nov 17 13:04:05 loadbalancer user.debug : Will stop PID 426
+Nov 17 13:04:05 loadbalancer user.debug : Sending signal 15 to PID 426
+Nov 17 13:04:06 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 17 13:04:06 loadbalancer user.debug : Will stop PID 278
+Nov 17 13:04:06 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 17 13:04:06 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 17 13:04:06 loadbalancer syslog.info syslogd exiting
+Nov 17 13:11:54 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 13:11:54 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 13:11:54 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 13:11:55 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 13:11:55 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 13:11:55 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 13:11:55 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 13:11:55 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 17 13:15:00 loadbalancer cron.info crond[278]: USER root pid 391 cmd run-parts /etc/periodic/15min
+Nov 17 13:18:59 loadbalancer daemon.info init: starting pid 392, tty '': '/sbin/openrc shutdown'
+Nov 17 13:18:59 loadbalancer user.debug : Will stop haproxy
+Nov 17 13:18:59 loadbalancer user.debug : Will stop PID 379
+Nov 17 13:18:59 loadbalancer daemon.err /etc/init.d/start_proxy[412]: start-stop-daemon: no matching processes found
+Nov 17 13:18:59 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 17 13:18:59 loadbalancer user.debug : Will stop PID 278
+Nov 17 13:18:59 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 17 13:18:59 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 17 13:18:59 loadbalancer user.debug : Will stop PID 250
+Nov 17 13:18:59 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 17 13:18:59 loadbalancer syslog.info syslogd exiting
+Nov 17 13:19:20 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 13:19:20 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 13:19:20 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 13:19:22 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 13:19:22 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 13:19:22 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 13:19:22 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 13:19:22 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 17 13:29:56 loadbalancer daemon.info init: starting pid 420, tty '': '/sbin/openrc shutdown'
+Nov 17 13:29:56 loadbalancer user.debug : Will stop haproxy
+Nov 17 13:29:56 loadbalancer user.debug : Will stop PID 394
+Nov 17 13:29:56 loadbalancer daemon.err /etc/init.d/start_proxy[440]: start-stop-daemon: no matching processes found
+Nov 17 13:29:56 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 17 13:29:56 loadbalancer user.debug : Will stop PID 278
+Nov 17 13:29:56 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 17 13:29:56 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 17 13:29:56 loadbalancer user.debug : Will stop PID 250
+Nov 17 13:29:56 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 17 13:29:56 loadbalancer syslog.info syslogd exiting
+Nov 17 13:30:03 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 13:30:03 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 13:30:03 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 13:30:05 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 13:30:05 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 13:30:05 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 13:30:05 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 13:30:05 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 17 13:35:51 loadbalancer daemon.info init: starting pid 401, tty '': '/sbin/openrc shutdown'
+Nov 17 13:35:51 loadbalancer user.debug : Will stop haproxy
+Nov 17 13:35:51 loadbalancer user.debug : Will stop PID 389
+Nov 17 13:35:51 loadbalancer daemon.err /etc/init.d/start_proxy[421]: start-stop-daemon: no matching processes found
+Nov 17 13:35:51 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 17 13:35:51 loadbalancer user.debug : Will stop PID 278
+Nov 17 13:35:51 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 17 13:35:51 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 17 13:35:51 loadbalancer user.debug : Will stop PID 250
+Nov 17 13:35:51 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 17 13:35:51 loadbalancer syslog.info syslogd exiting
+Nov 17 13:38:11 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 13:38:11 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 13:38:11 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 13:38:12 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 13:38:12 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 13:38:12 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 13:38:12 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 13:38:12 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 17 13:45:00 loadbalancer cron.info crond[278]: USER root pid 389 cmd run-parts /etc/periodic/15min
+Nov 17 13:47:02 loadbalancer daemon.info init: starting pid 393, tty '': '/sbin/openrc shutdown'
+Nov 17 13:47:02 loadbalancer user.debug : Will stop haproxy
+Nov 17 13:47:02 loadbalancer user.debug : Will stop PID 374
+Nov 17 13:47:02 loadbalancer daemon.err /etc/init.d/start_proxy[413]: start-stop-daemon: no matching processes found
+Nov 17 13:47:02 loadbalancer user.debug : Will stop /usr/sbin/crond
+Nov 17 13:47:02 loadbalancer user.debug : Will stop PID 278
+Nov 17 13:47:02 loadbalancer user.debug : Sending signal 15 to PID 278
+Nov 17 13:47:02 loadbalancer user.debug : Will stop /sbin/syslogd
+Nov 17 13:47:02 loadbalancer user.debug : Will stop PID 250
+Nov 17 13:47:02 loadbalancer user.debug : Sending signal 15 to PID 250
+Nov 17 13:47:02 loadbalancer syslog.info syslogd exiting
+Nov 17 13:52:06 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 13:52:06 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 13:52:06 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 13:52:08 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 13:52:08 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 13:52:08 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 13:52:08 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 13:52:08 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 17 13:54:58 loadbalancer user.debug : Will stop PID 411
+Nov 17 13:54:58 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 17 13:56:28 loadbalancer user.debug : Will stop PID 465
+Nov 17 13:56:28 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 17 14:02:00 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 14:02:00 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 14:02:00 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 14:02:01 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 14:02:01 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 14:02:01 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 14:02:01 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 14:02:01 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 17 14:15:00 loadbalancer cron.info crond[278]: USER root pid 419 cmd run-parts /etc/periodic/15min
+Nov 17 14:30:00 loadbalancer cron.info crond[278]: USER root pid 420 cmd run-parts /etc/periodic/15min
+Nov 17 14:45:00 loadbalancer cron.info crond[278]: USER root pid 430 cmd run-parts /etc/periodic/15min
+Nov 17 15:00:00 loadbalancer cron.info crond[278]: USER root pid 431 cmd run-parts /etc/periodic/15min
+Nov 17 15:00:00 loadbalancer cron.info crond[278]: USER root pid 432 cmd run-parts /etc/periodic/hourly
+Nov 17 15:15:00 loadbalancer cron.info crond[278]: USER root pid 442 cmd run-parts /etc/periodic/15min
+Nov 17 15:30:00 loadbalancer cron.info crond[278]: USER root pid 443 cmd run-parts /etc/periodic/15min
+Nov 17 15:45:00 loadbalancer cron.info crond[278]: USER root pid 453 cmd run-parts /etc/periodic/15min
+Nov 17 16:00:00 loadbalancer cron.info crond[278]: USER root pid 454 cmd run-parts /etc/periodic/15min
+Nov 17 16:00:00 loadbalancer cron.info crond[278]: USER root pid 455 cmd run-parts /etc/periodic/hourly
+Nov 17 16:15:00 loadbalancer cron.info crond[278]: USER root pid 465 cmd run-parts /etc/periodic/15min
+Nov 17 16:30:00 loadbalancer cron.info crond[278]: USER root pid 466 cmd run-parts /etc/periodic/15min
+Nov 17 16:45:00 loadbalancer cron.info crond[278]: USER root pid 476 cmd run-parts /etc/periodic/15min
+Nov 17 17:00:00 loadbalancer cron.info crond[278]: USER root pid 477 cmd run-parts /etc/periodic/15min
+Nov 17 17:00:00 loadbalancer cron.info crond[278]: USER root pid 478 cmd run-parts /etc/periodic/hourly
+Nov 17 17:15:00 loadbalancer cron.info crond[278]: USER root pid 488 cmd run-parts /etc/periodic/15min
+Nov 17 17:30:00 loadbalancer cron.info crond[278]: USER root pid 489 cmd run-parts /etc/periodic/15min
+Nov 17 17:45:00 loadbalancer cron.info crond[278]: USER root pid 499 cmd run-parts /etc/periodic/15min
+Nov 17 18:00:00 loadbalancer cron.info crond[278]: USER root pid 500 cmd run-parts /etc/periodic/15min
+Nov 17 18:00:00 loadbalancer cron.info crond[278]: USER root pid 501 cmd run-parts /etc/periodic/hourly
+Nov 17 18:15:00 loadbalancer cron.info crond[278]: USER root pid 511 cmd run-parts /etc/periodic/15min
+Nov 17 18:35:49 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 17 18:35:49 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 17 18:35:49 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 17 18:35:50 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 17 18:35:50 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 17 18:35:50 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 17 18:35:50 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 17 18:35:50 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 18 20:30:32 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 20:30:32 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 20:30:32 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 20:30:37 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 20:30:37 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 20:30:37 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 20:30:37 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 20:30:37 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 18 20:32:23 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 20:32:23 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 20:32:23 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 20:32:25 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 20:32:25 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 20:32:25 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 20:32:25 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 20:32:25 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 18 20:37:07 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 20:37:07 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 20:37:07 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 20:37:08 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 20:37:08 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 20:37:08 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 20:37:08 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 20:37:08 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 18 20:45:00 loadbalancer cron.info crond[278]: USER root pid 434 cmd run-parts /etc/periodic/15min
+Nov 18 20:47:06 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 20:47:06 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 20:47:06 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 20:47:08 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 20:47:08 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 20:47:08 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 20:47:08 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 20:47:08 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 18 20:47:44 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 20:47:44 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 20:47:44 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 20:47:45 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 20:47:45 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 20:47:45 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 20:47:45 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 20:47:45 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 18 20:48:30 loadbalancer user.debug : Will stop PID 411
+Nov 18 20:48:30 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 18 20:50:15 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 20:50:15 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 20:50:15 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 20:50:16 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 20:50:16 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 20:50:16 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 20:50:16 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 20:50:16 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 18 20:50:40 loadbalancer user.debug : Will stop PID 406
+Nov 18 20:50:40 loadbalancer user.debug : Sending signal 15 to PID 406
+Nov 18 20:50:43 loadbalancer user.debug : Will stop PID 460
+Nov 18 20:50:43 loadbalancer user.debug : Sending signal 15 to PID 460
+Nov 18 20:50:57 loadbalancer user.debug : Will stop PID 514
+Nov 18 20:50:57 loadbalancer user.debug : Sending signal 15 to PID 514
+Nov 18 20:51:00 loadbalancer user.debug : Will stop PID 568
+Nov 18 20:51:00 loadbalancer user.debug : Sending signal 15 to PID 568
+Nov 18 20:51:12 loadbalancer user.debug : Will stop PID 622
+Nov 18 20:51:12 loadbalancer user.debug : Sending signal 15 to PID 622
+Nov 18 20:51:16 loadbalancer user.debug : Will stop PID 676
+Nov 18 20:51:16 loadbalancer user.debug : Sending signal 15 to PID 676
+Nov 18 20:53:28 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 20:53:28 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 20:53:28 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 20:53:30 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 20:53:30 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 20:53:30 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 20:53:30 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 20:53:30 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 18 20:53:57 loadbalancer user.debug : Will stop PID 426
+Nov 18 20:53:57 loadbalancer user.debug : Sending signal 15 to PID 426
+Nov 18 20:54:24 loadbalancer user.debug : Will stop PID 480
+Nov 18 20:54:24 loadbalancer user.debug : Sending signal 15 to PID 480
+Nov 18 20:54:44 loadbalancer user.debug : Will stop PID 534
+Nov 18 20:54:44 loadbalancer user.debug : Sending signal 15 to PID 534
+Nov 18 20:54:54 loadbalancer user.debug : Will stop PID 588
+Nov 18 20:54:54 loadbalancer user.debug : Sending signal 15 to PID 588
+Nov 18 20:55:03 loadbalancer user.debug : Will stop PID 642
+Nov 18 20:55:03 loadbalancer user.debug : Sending signal 15 to PID 642
+Nov 18 20:55:09 loadbalancer user.debug : Will stop PID 696
+Nov 18 20:55:09 loadbalancer user.debug : Sending signal 15 to PID 696
+Nov 18 20:55:25 loadbalancer user.debug : Will stop PID 750
+Nov 18 20:55:25 loadbalancer user.debug : Sending signal 15 to PID 750
+Nov 18 20:55:50 loadbalancer user.debug : Will stop PID 804
+Nov 18 20:55:50 loadbalancer user.debug : Sending signal 15 to PID 804
+Nov 18 20:56:00 loadbalancer user.debug : Will stop PID 858
+Nov 18 20:56:00 loadbalancer user.debug : Sending signal 15 to PID 858
+Nov 18 20:56:09 loadbalancer user.debug : Will stop PID 912
+Nov 18 20:56:09 loadbalancer user.debug : Sending signal 15 to PID 912
+Nov 18 20:56:16 loadbalancer user.debug : Will stop PID 966
+Nov 18 20:56:16 loadbalancer user.debug : Sending signal 15 to PID 966
+Nov 18 20:56:58 loadbalancer user.debug : Will stop PID 1020
+Nov 18 20:56:58 loadbalancer user.debug : Sending signal 15 to PID 1020
+Nov 18 20:57:10 loadbalancer user.debug : Will stop PID 1074
+Nov 18 20:57:10 loadbalancer user.debug : Sending signal 15 to PID 1074
+Nov 18 20:57:20 loadbalancer user.debug : Will stop PID 1128
+Nov 18 20:57:20 loadbalancer user.debug : Sending signal 15 to PID 1128
+Nov 18 20:57:25 loadbalancer user.debug : Will stop PID 1182
+Nov 18 20:57:25 loadbalancer user.debug : Sending signal 15 to PID 1182
+Nov 18 20:57:46 loadbalancer user.debug : Will stop PID 1236
+Nov 18 20:57:46 loadbalancer user.debug : Sending signal 15 to PID 1236
+Nov 18 20:58:05 loadbalancer user.debug : Will stop PID 1290
+Nov 18 20:58:05 loadbalancer user.debug : Sending signal 15 to PID 1290
+Nov 18 20:58:20 loadbalancer user.debug : Will stop PID 1344
+Nov 18 20:58:20 loadbalancer user.debug : Sending signal 15 to PID 1344
+Nov 18 20:58:30 loadbalancer user.debug : Will stop PID 1398
+Nov 18 20:58:30 loadbalancer user.debug : Sending signal 15 to PID 1398
+Nov 18 20:58:40 loadbalancer user.debug : Will stop PID 1452
+Nov 18 20:58:40 loadbalancer user.debug : Sending signal 15 to PID 1452
+Nov 18 20:58:45 loadbalancer user.debug : Will stop PID 1506
+Nov 18 20:58:45 loadbalancer user.debug : Sending signal 15 to PID 1506
+Nov 18 20:59:08 loadbalancer user.debug : Will stop PID 1560
+Nov 18 20:59:08 loadbalancer user.debug : Sending signal 15 to PID 1560
+Nov 18 21:00:00 loadbalancer cron.info crond[278]: USER root pid 1622 cmd run-parts /etc/periodic/15min
+Nov 18 21:00:00 loadbalancer cron.info crond[278]: USER root pid 1623 cmd run-parts /etc/periodic/hourly
+Nov 18 21:15:00 loadbalancer cron.info crond[278]: USER root pid 1624 cmd run-parts /etc/periodic/15min
+Nov 18 21:30:00 loadbalancer cron.info crond[278]: USER root pid 1634 cmd run-parts /etc/periodic/15min
+Nov 18 21:45:00 loadbalancer cron.info crond[278]: USER root pid 1635 cmd run-parts /etc/periodic/15min
+Nov 18 21:59:06 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 18 21:59:06 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 18 21:59:06 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 18 21:59:08 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 18 21:59:08 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 18 21:59:08 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 18 21:59:08 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 18 21:59:08 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 18 21:59:27 loadbalancer user.debug : Will stop PID 421
+Nov 18 21:59:27 loadbalancer user.debug : Sending signal 15 to PID 421
+Nov 18 21:59:39 loadbalancer user.debug : Will stop PID 475
+Nov 18 21:59:39 loadbalancer user.debug : Sending signal 15 to PID 475
+Nov 18 22:00:00 loadbalancer cron.info crond[278]: USER root pid 537 cmd run-parts /etc/periodic/15min
+Nov 18 22:00:00 loadbalancer cron.info crond[278]: USER root pid 538 cmd run-parts /etc/periodic/hourly
+Nov 19 16:54:53 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 19 16:54:53 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 19 16:54:53 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 19 16:54:56 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 19 16:54:56 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 19 16:54:56 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 19 16:54:56 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 19 16:54:56 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 19 16:55:19 loadbalancer user.debug : Will stop PID 386
+Nov 19 16:55:19 loadbalancer user.debug : Sending signal 15 to PID 386
+Nov 19 16:55:41 loadbalancer user.debug : Will stop PID 440
+Nov 19 16:55:41 loadbalancer user.debug : Sending signal 15 to PID 440
+Nov 19 16:55:54 loadbalancer user.debug : Will stop PID 494
+Nov 19 16:55:54 loadbalancer user.debug : Sending signal 15 to PID 494
+Nov 19 16:57:47 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 19 16:57:47 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 19 16:57:47 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 19 16:57:48 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 19 16:57:48 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 19 16:57:48 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 19 16:57:48 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 19 16:57:48 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 19 16:58:34 loadbalancer user.debug : Will stop PID 411
+Nov 19 16:58:34 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 19 16:58:56 loadbalancer user.debug : Will stop PID 465
+Nov 19 16:58:56 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 19 16:59:09 loadbalancer user.debug : Will stop PID 519
+Nov 19 16:59:09 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 19 17:00:00 loadbalancer cron.info crond[278]: USER root pid 581 cmd run-parts /etc/periodic/15min
+Nov 19 17:00:00 loadbalancer cron.info crond[278]: USER root pid 582 cmd run-parts /etc/periodic/hourly
+Nov 19 17:03:19 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 19 17:03:19 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 19 17:03:19 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 19 17:03:21 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 19 17:03:21 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 19 17:03:21 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 19 17:03:21 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 19 17:03:21 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 20 15:34:09 loadbalancer user.debug : Will stop PID 406
+Nov 20 15:34:09 loadbalancer user.debug : Sending signal 15 to PID 406
+Nov 20 15:34:27 loadbalancer cron.err crond[278]: time disparity of 1350 minutes detected
+Nov 20 15:34:37 loadbalancer user.debug : Will stop PID 460
+Nov 20 15:34:37 loadbalancer user.debug : Sending signal 15 to PID 460
+Nov 20 15:34:52 loadbalancer user.debug : Will stop PID 514
+Nov 20 15:34:52 loadbalancer user.debug : Sending signal 15 to PID 514
+Nov 20 15:45:05 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 20 15:45:05 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 20 15:45:05 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 20 15:45:08 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 20 15:45:08 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 20 15:45:08 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 20 15:45:08 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 20 15:45:08 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 20 15:45:38 loadbalancer user.debug : Will stop PID 386
+Nov 20 15:45:38 loadbalancer user.debug : Sending signal 15 to PID 386
+Nov 20 15:46:06 loadbalancer user.debug : Will stop PID 440
+Nov 20 15:46:06 loadbalancer user.debug : Sending signal 15 to PID 440
+Nov 20 15:46:21 loadbalancer user.debug : Will stop PID 494
+Nov 20 15:46:21 loadbalancer user.debug : Sending signal 15 to PID 494
+Nov 20 16:00:00 loadbalancer cron.info crond[278]: USER root pid 556 cmd run-parts /etc/periodic/15min
+Nov 20 16:00:00 loadbalancer cron.info crond[278]: USER root pid 557 cmd run-parts /etc/periodic/hourly
+Nov 20 16:00:24 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 20 16:00:24 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 20 16:00:24 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 20 16:00:25 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 20 16:00:25 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 20 16:00:25 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 20 16:00:25 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 20 16:00:25 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 20 16:00:44 loadbalancer user.debug : Will stop PID 411
+Nov 20 16:00:44 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 20 16:00:59 loadbalancer user.debug : Will stop PID 465
+Nov 20 16:00:59 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 20 16:01:10 loadbalancer user.debug : Will stop PID 519
+Nov 20 16:01:10 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 20 16:01:23 loadbalancer user.debug : Will stop PID 573
+Nov 20 16:01:23 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 20 16:01:37 loadbalancer user.debug : Will stop PID 627
+Nov 20 16:01:37 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 20 16:03:20 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 20 16:03:20 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 20 16:03:20 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 20 16:03:21 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 20 16:03:21 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 20 16:03:21 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 20 16:03:21 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 20 16:03:21 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 20 16:03:44 loadbalancer user.debug : Will stop PID 406
+Nov 20 16:03:44 loadbalancer user.debug : Sending signal 15 to PID 406
+Nov 20 16:04:12 loadbalancer user.debug : Will stop PID 460
+Nov 20 16:04:12 loadbalancer user.debug : Sending signal 15 to PID 460
+Nov 20 16:04:38 loadbalancer user.debug : Will stop PID 514
+Nov 20 16:04:38 loadbalancer user.debug : Sending signal 15 to PID 514
+Nov 20 16:05:26 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 20 16:05:26 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 20 16:05:26 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 20 16:05:28 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 20 16:05:28 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 20 16:05:28 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 20 16:05:28 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 20 16:05:28 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 20 16:06:00 loadbalancer user.debug : Will stop PID 421
+Nov 20 16:06:00 loadbalancer user.debug : Sending signal 15 to PID 421
+Nov 20 16:06:16 loadbalancer user.debug : Will stop PID 475
+Nov 20 16:06:16 loadbalancer user.debug : Sending signal 15 to PID 475
+Nov 20 16:08:34 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 20 16:08:34 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 20 16:08:34 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 20 16:08:35 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 20 16:08:35 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 20 16:08:35 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 20 16:08:35 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 20 16:08:35 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 20 16:09:39 loadbalancer user.debug : Will stop PID 406
+Nov 20 16:09:39 loadbalancer user.debug : Sending signal 15 to PID 406
+Nov 20 16:09:49 loadbalancer user.debug : Will stop PID 460
+Nov 20 16:09:49 loadbalancer user.debug : Sending signal 15 to PID 460
+Nov 20 16:14:56 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 20 16:14:56 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 20 16:14:56 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 20 16:14:58 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 20 16:14:58 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 20 16:14:58 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 20 16:14:58 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 20 16:14:58 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 20 16:15:00 loadbalancer cron.info crond[278]: USER root pid 406 cmd run-parts /etc/periodic/15min
+Nov 20 16:16:58 loadbalancer user.debug : Will stop PID 427
+Nov 20 16:16:58 loadbalancer user.debug : Sending signal 15 to PID 427
+Nov 20 16:17:08 loadbalancer user.debug : Will stop PID 481
+Nov 20 16:17:08 loadbalancer user.debug : Sending signal 15 to PID 481
+Nov 20 16:17:19 loadbalancer user.debug : Will stop PID 535
+Nov 20 16:17:19 loadbalancer user.debug : Sending signal 15 to PID 535
+Nov 20 16:17:37 loadbalancer user.debug : Will stop PID 589
+Nov 20 16:17:37 loadbalancer user.debug : Sending signal 15 to PID 589
+Nov 20 16:17:50 loadbalancer user.debug : Will stop PID 643
+Nov 20 16:17:50 loadbalancer user.debug : Sending signal 15 to PID 643
+Nov 20 16:18:05 loadbalancer user.debug : Will stop PID 697
+Nov 20 16:18:05 loadbalancer user.debug : Sending signal 15 to PID 697
+Nov 20 16:25:06 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 20 16:25:06 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 20 16:25:06 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 20 16:25:08 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 20 16:25:08 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 20 16:25:08 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 20 16:25:08 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 20 16:25:08 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 20 16:25:33 loadbalancer user.debug : Will stop PID 426
+Nov 20 16:25:33 loadbalancer user.debug : Sending signal 15 to PID 426
+Nov 20 16:25:42 loadbalancer user.debug : Will stop PID 480
+Nov 20 16:25:42 loadbalancer user.debug : Sending signal 15 to PID 480
+Nov 20 16:30:00 loadbalancer cron.info crond[278]: USER root pid 542 cmd run-parts /etc/periodic/15min
+Nov 23 16:00:55 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 16:00:55 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 16:00:55 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 16:00:58 loadbalancer daemon.info init: starting pid 361, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 16:00:58 loadbalancer daemon.info init: starting pid 362, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 16:00:58 loadbalancer daemon.info init: starting pid 363, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 16:00:58 loadbalancer daemon.info init: starting pid 364, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 16:00:58 loadbalancer daemon.info init: starting pid 365, tty '': '/sbin/getty 38400 console'
+Nov 23 16:01:29 loadbalancer user.debug : Will stop PID 386
+Nov 23 16:01:29 loadbalancer user.debug : Sending signal 15 to PID 386
+Nov 23 16:02:11 loadbalancer user.debug : Will stop PID 440
+Nov 23 16:02:11 loadbalancer user.debug : Sending signal 15 to PID 440
+Nov 23 16:04:09 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 16:04:09 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 16:04:09 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 16:04:10 loadbalancer daemon.info init: starting pid 376, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 16:04:10 loadbalancer daemon.info init: starting pid 377, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 16:04:10 loadbalancer daemon.info init: starting pid 378, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 16:04:10 loadbalancer daemon.info init: starting pid 379, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 16:04:10 loadbalancer daemon.info init: starting pid 380, tty '': '/sbin/getty 38400 console'
+Nov 23 16:04:34 loadbalancer user.debug : Will stop PID 401
+Nov 23 16:04:34 loadbalancer user.debug : Sending signal 15 to PID 401
+Nov 23 16:39:16 loadbalancer user.debug : Will stop PID 455
+Nov 23 16:39:16 loadbalancer user.debug : Sending signal 15 to PID 455
+Nov 23 16:41:03 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 16:41:03 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 16:41:03 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 16:41:05 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 16:41:05 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 16:41:05 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 16:41:05 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 16:41:05 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 23 16:41:29 loadbalancer user.debug : Will stop PID 411
+Nov 23 16:41:29 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 23 16:42:10 loadbalancer user.debug : Will stop PID 465
+Nov 23 16:42:10 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 23 16:45:00 loadbalancer cron.info crond[278]: USER root pid 527 cmd run-parts /etc/periodic/15min
+Nov 23 16:47:43 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 16:47:43 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 16:47:43 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 16:47:44 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 16:47:44 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 16:47:44 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 16:47:44 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 16:47:44 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 23 16:48:03 loadbalancer user.debug : Will stop PID 411
+Nov 23 16:48:03 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 23 16:48:53 loadbalancer user.debug : Will stop PID 465
+Nov 23 16:48:53 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 23 16:49:33 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 16:49:33 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 16:49:33 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 16:49:34 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 16:49:34 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 16:49:34 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 16:49:34 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 16:49:34 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 23 16:49:58 loadbalancer user.debug : Will stop PID 411
+Nov 23 16:49:58 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 23 16:50:41 loadbalancer user.debug : Will stop PID 465
+Nov 23 16:50:41 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 23 16:54:05 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 16:54:05 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 16:54:05 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 16:54:05 loadbalancer daemon.info init: starting pid 376, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 16:54:05 loadbalancer daemon.info init: starting pid 377, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 16:54:05 loadbalancer daemon.info init: starting pid 378, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 16:54:05 loadbalancer daemon.info init: starting pid 379, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 16:54:05 loadbalancer daemon.info init: starting pid 380, tty '': '/sbin/getty 38400 console'
+Nov 23 16:54:22 loadbalancer user.debug : Will stop PID 401
+Nov 23 16:54:22 loadbalancer user.debug : Sending signal 15 to PID 401
+Nov 23 16:55:04 loadbalancer user.debug : Will stop PID 455
+Nov 23 16:55:04 loadbalancer user.debug : Sending signal 15 to PID 455
+Nov 23 17:00:17 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 17:00:17 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 17:00:17 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 17:00:18 loadbalancer daemon.info init: starting pid 391, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 17:00:18 loadbalancer daemon.info init: starting pid 392, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 17:00:18 loadbalancer daemon.info init: starting pid 393, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 17:00:18 loadbalancer daemon.info init: starting pid 394, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 17:00:18 loadbalancer daemon.info init: starting pid 395, tty '': '/sbin/getty 38400 console'
+Nov 23 17:00:42 loadbalancer user.debug : Will stop PID 416
+Nov 23 17:00:42 loadbalancer user.debug : Sending signal 15 to PID 416
+Nov 23 17:00:51 loadbalancer user.debug : Will stop PID 470
+Nov 23 17:00:51 loadbalancer user.debug : Sending signal 15 to PID 470
+Nov 23 17:01:02 loadbalancer user.debug : Will stop PID 524
+Nov 23 17:01:02 loadbalancer user.debug : Sending signal 15 to PID 524
+Nov 23 17:01:20 loadbalancer user.debug : Will stop PID 578
+Nov 23 17:01:20 loadbalancer user.debug : Sending signal 15 to PID 578
+Nov 23 17:01:47 loadbalancer user.debug : Will stop PID 632
+Nov 23 17:01:47 loadbalancer user.debug : Sending signal 15 to PID 632
+Nov 23 17:02:05 loadbalancer user.debug : Will stop PID 686
+Nov 23 17:02:05 loadbalancer user.debug : Sending signal 15 to PID 686
+Nov 23 17:05:18 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 17:05:18 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 17:05:18 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 17:05:19 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 17:05:19 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 17:05:19 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 17:05:19 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 17:05:19 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 23 17:05:43 loadbalancer user.debug : Will stop PID 426
+Nov 23 17:05:43 loadbalancer user.debug : Sending signal 15 to PID 426
+Nov 23 17:05:53 loadbalancer user.debug : Will stop PID 480
+Nov 23 17:05:53 loadbalancer user.debug : Sending signal 15 to PID 480
+Nov 23 17:06:09 loadbalancer user.debug : Will stop PID 534
+Nov 23 17:06:09 loadbalancer user.debug : Sending signal 15 to PID 534
+Nov 23 17:06:35 loadbalancer user.debug : Will stop PID 588
+Nov 23 17:06:35 loadbalancer user.debug : Sending signal 15 to PID 588
+Nov 23 17:06:50 loadbalancer user.debug : Will stop PID 642
+Nov 23 17:06:50 loadbalancer user.debug : Sending signal 15 to PID 642
+Nov 23 17:07:03 loadbalancer user.debug : Will stop PID 696
+Nov 23 17:07:03 loadbalancer user.debug : Sending signal 15 to PID 696
+Nov 23 17:07:12 loadbalancer user.debug : Will stop PID 750
+Nov 23 17:07:12 loadbalancer user.debug : Sending signal 15 to PID 750
+Nov 23 17:07:32 loadbalancer user.debug : Will stop PID 804
+Nov 23 17:07:32 loadbalancer user.debug : Sending signal 15 to PID 804
+Nov 23 17:07:43 loadbalancer user.debug : Will stop PID 858
+Nov 23 17:07:43 loadbalancer user.debug : Sending signal 15 to PID 858
+Nov 23 17:07:57 loadbalancer user.debug : Will stop PID 912
+Nov 23 17:07:57 loadbalancer user.debug : Sending signal 15 to PID 912
+Nov 23 17:08:26 loadbalancer user.debug : Will stop PID 966
+Nov 23 17:08:26 loadbalancer user.debug : Sending signal 15 to PID 966
+Nov 23 17:08:44 loadbalancer user.debug : Will stop PID 1020
+Nov 23 17:08:44 loadbalancer user.debug : Sending signal 15 to PID 1020
+Nov 23 17:15:19 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 17:15:19 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 17:15:19 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 17:15:19 loadbalancer daemon.info init: starting pid 376, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 17:15:19 loadbalancer daemon.info init: starting pid 377, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 17:15:19 loadbalancer daemon.info init: starting pid 378, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 17:15:19 loadbalancer daemon.info init: starting pid 379, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 17:15:19 loadbalancer daemon.info init: starting pid 380, tty '': '/sbin/getty 38400 console'
+Nov 23 17:16:29 loadbalancer user.debug : Will stop PID 401
+Nov 23 17:16:29 loadbalancer user.debug : Sending signal 15 to PID 401
+Nov 23 17:16:39 loadbalancer user.debug : Will stop PID 455
+Nov 23 17:16:39 loadbalancer user.debug : Sending signal 15 to PID 455
+Nov 23 17:17:03 loadbalancer user.debug : Will stop PID 509
+Nov 23 17:17:03 loadbalancer user.debug : Sending signal 15 to PID 509
+Nov 23 17:17:37 loadbalancer user.debug : Will stop PID 563
+Nov 23 17:17:37 loadbalancer user.debug : Sending signal 15 to PID 563
+Nov 23 17:17:52 loadbalancer user.debug : Will stop PID 617
+Nov 23 17:17:52 loadbalancer user.debug : Sending signal 15 to PID 617
+Nov 23 17:18:03 loadbalancer user.debug : Will stop PID 671
+Nov 23 17:18:03 loadbalancer user.debug : Sending signal 15 to PID 671
+Nov 23 17:18:14 loadbalancer user.debug : Will stop PID 725
+Nov 23 17:18:14 loadbalancer user.debug : Sending signal 15 to PID 725
+Nov 23 17:18:31 loadbalancer user.debug : Will stop PID 779
+Nov 23 17:18:31 loadbalancer user.debug : Sending signal 15 to PID 779
+Nov 23 17:18:52 loadbalancer user.debug : Will stop PID 833
+Nov 23 17:18:52 loadbalancer user.debug : Sending signal 15 to PID 833
+Nov 23 17:19:04 loadbalancer user.debug : Will stop PID 887
+Nov 23 17:19:04 loadbalancer user.debug : Sending signal 15 to PID 887
+Nov 23 17:19:22 loadbalancer user.debug : Will stop PID 941
+Nov 23 17:19:22 loadbalancer user.debug : Sending signal 15 to PID 941
+Nov 23 17:19:30 loadbalancer user.debug : Will stop PID 995
+Nov 23 17:19:30 loadbalancer user.debug : Sending signal 15 to PID 995
+Nov 23 17:19:48 loadbalancer user.debug : Will stop PID 1049
+Nov 23 17:19:48 loadbalancer user.debug : Sending signal 15 to PID 1049
+Nov 23 17:20:10 loadbalancer user.debug : Will stop PID 1103
+Nov 23 17:20:10 loadbalancer user.debug : Sending signal 15 to PID 1103
+Nov 23 17:20:20 loadbalancer user.debug : Will stop PID 1157
+Nov 23 17:20:20 loadbalancer user.debug : Sending signal 15 to PID 1157
+Nov 23 17:20:29 loadbalancer user.debug : Will stop PID 1211
+Nov 23 17:20:29 loadbalancer user.debug : Sending signal 15 to PID 1211
+Nov 23 17:20:44 loadbalancer user.debug : Will stop PID 1265
+Nov 23 17:20:44 loadbalancer user.debug : Sending signal 15 to PID 1265
+Nov 23 17:21:03 loadbalancer user.debug : Will stop PID 1319
+Nov 23 17:21:03 loadbalancer user.debug : Sending signal 15 to PID 1319
+Nov 23 17:22:22 loadbalancer user.debug : Will stop PID 1373
+Nov 23 17:22:22 loadbalancer user.debug : Sending signal 15 to PID 1373
+Nov 23 17:22:29 loadbalancer user.debug : Will stop PID 1427
+Nov 23 17:22:29 loadbalancer user.debug : Sending signal 15 to PID 1427
+Nov 23 17:26:05 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 17:26:05 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 17:26:05 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 17:26:06 loadbalancer daemon.info init: starting pid 371, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 17:26:06 loadbalancer daemon.info init: starting pid 372, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 17:26:06 loadbalancer daemon.info init: starting pid 373, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 17:26:06 loadbalancer daemon.info init: starting pid 374, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 17:26:06 loadbalancer daemon.info init: starting pid 375, tty '': '/sbin/getty 38400 console'
+Nov 23 17:26:38 loadbalancer user.debug : Will stop PID 396
+Nov 23 17:26:38 loadbalancer user.debug : Sending signal 15 to PID 396
+Nov 23 17:26:47 loadbalancer user.debug : Will stop PID 450
+Nov 23 17:26:47 loadbalancer user.debug : Sending signal 15 to PID 450
+Nov 23 17:26:58 loadbalancer user.debug : Will stop PID 504
+Nov 23 17:26:58 loadbalancer user.debug : Sending signal 15 to PID 504
+Nov 23 17:27:17 loadbalancer user.debug : Will stop PID 558
+Nov 23 17:27:17 loadbalancer user.debug : Sending signal 15 to PID 558
+Nov 23 17:27:38 loadbalancer user.debug : Will stop PID 612
+Nov 23 17:27:38 loadbalancer user.debug : Sending signal 15 to PID 612
+Nov 23 17:27:50 loadbalancer user.debug : Will stop PID 666
+Nov 23 17:27:50 loadbalancer user.debug : Sending signal 15 to PID 666
+Nov 23 17:28:10 loadbalancer user.debug : Will stop PID 720
+Nov 23 17:28:10 loadbalancer user.debug : Sending signal 15 to PID 720
+Nov 23 17:28:20 loadbalancer user.debug : Will stop PID 774
+Nov 23 17:28:20 loadbalancer user.debug : Sending signal 15 to PID 774
+Nov 23 17:28:41 loadbalancer user.debug : Will stop PID 828
+Nov 23 17:28:41 loadbalancer user.debug : Sending signal 15 to PID 828
+Nov 23 17:28:51 loadbalancer user.debug : Will stop PID 882
+Nov 23 17:28:51 loadbalancer user.debug : Sending signal 15 to PID 882
+Nov 23 17:28:59 loadbalancer user.debug : Will stop PID 936
+Nov 23 17:28:59 loadbalancer user.debug : Sending signal 15 to PID 936
+Nov 23 17:29:12 loadbalancer user.debug : Will stop PID 990
+Nov 23 17:29:12 loadbalancer user.debug : Sending signal 15 to PID 990
+Nov 23 17:29:26 loadbalancer user.debug : Will stop PID 1044
+Nov 23 17:29:26 loadbalancer user.debug : Sending signal 15 to PID 1044
+Nov 23 17:29:35 loadbalancer user.debug : Will stop PID 1098
+Nov 23 17:29:36 loadbalancer user.debug : Sending signal 15 to PID 1098
+Nov 23 17:29:45 loadbalancer user.debug : Will stop PID 1152
+Nov 23 17:29:45 loadbalancer user.debug : Sending signal 15 to PID 1152
+Nov 23 17:30:00 loadbalancer cron.info crond[278]: USER root pid 1214 cmd run-parts /etc/periodic/15min
+Nov 23 17:30:11 loadbalancer user.debug : Will stop PID 1206
+Nov 23 17:30:11 loadbalancer user.debug : Sending signal 15 to PID 1206
+Nov 23 17:30:21 loadbalancer user.debug : Will stop PID 1261
+Nov 23 17:30:21 loadbalancer user.debug : Sending signal 15 to PID 1261
+Nov 23 17:30:47 loadbalancer user.debug : Will stop PID 1315
+Nov 23 17:30:47 loadbalancer user.debug : Sending signal 15 to PID 1315
+Nov 23 17:30:59 loadbalancer user.debug : Will stop PID 1369
+Nov 23 17:30:59 loadbalancer user.debug : Sending signal 15 to PID 1369
+Nov 23 17:31:06 loadbalancer user.debug : Will stop PID 1423
+Nov 23 17:31:06 loadbalancer user.debug : Sending signal 15 to PID 1423
+Nov 23 17:31:25 loadbalancer user.debug : Will stop PID 1477
+Nov 23 17:31:25 loadbalancer user.debug : Sending signal 15 to PID 1477
+Nov 23 17:31:41 loadbalancer user.debug : Will stop PID 1531
+Nov 23 17:31:41 loadbalancer user.debug : Sending signal 15 to PID 1531
+Nov 23 17:31:52 loadbalancer user.debug : Will stop PID 1585
+Nov 23 17:31:52 loadbalancer user.debug : Sending signal 15 to PID 1585
+Nov 23 17:32:04 loadbalancer user.debug : Will stop PID 1639
+Nov 23 17:32:04 loadbalancer user.debug : Sending signal 15 to PID 1639
+Nov 23 17:32:26 loadbalancer user.debug : Will stop PID 1693
+Nov 23 17:32:26 loadbalancer user.debug : Sending signal 15 to PID 1693
+Nov 23 17:32:37 loadbalancer user.debug : Will stop PID 1747
+Nov 23 17:32:37 loadbalancer user.debug : Sending signal 15 to PID 1747
+Nov 23 17:33:07 loadbalancer user.debug : Will stop PID 1801
+Nov 23 17:33:07 loadbalancer user.debug : Sending signal 15 to PID 1801
+Nov 23 17:33:15 loadbalancer user.debug : Will stop PID 1855
+Nov 23 17:33:15 loadbalancer user.debug : Sending signal 15 to PID 1855
+Nov 23 17:37:33 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 17:37:33 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 17:37:33 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 17:37:35 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 17:37:35 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 17:37:35 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 17:37:35 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 17:37:35 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 23 17:45:00 loadbalancer cron.info crond[278]: USER root pid 434 cmd run-parts /etc/periodic/15min
+Nov 23 18:00:00 loadbalancer cron.info crond[278]: USER root pid 435 cmd run-parts /etc/periodic/15min
+Nov 23 18:00:00 loadbalancer cron.info crond[278]: USER root pid 436 cmd run-parts /etc/periodic/hourly
+Nov 23 18:09:50 loadbalancer user.debug : Will stop PID 426
+Nov 23 18:09:50 loadbalancer user.debug : Sending signal 15 to PID 426
+Nov 23 18:09:54 loadbalancer user.debug : Will stop PID 492
+Nov 23 18:09:54 loadbalancer user.debug : Sending signal 15 to PID 492
+Nov 23 18:10:15 loadbalancer user.debug : Will stop PID 546
+Nov 23 18:10:15 loadbalancer user.debug : Sending signal 15 to PID 546
+Nov 23 18:10:25 loadbalancer user.debug : Will stop PID 600
+Nov 23 18:10:25 loadbalancer user.debug : Sending signal 15 to PID 600
+Nov 23 18:10:30 loadbalancer user.debug : Will stop PID 654
+Nov 23 18:10:30 loadbalancer user.debug : Sending signal 15 to PID 654
+Nov 23 18:10:58 loadbalancer user.debug : Will stop PID 708
+Nov 23 18:10:58 loadbalancer user.debug : Sending signal 15 to PID 708
+Nov 23 18:11:07 loadbalancer user.debug : Will stop PID 762
+Nov 23 18:11:07 loadbalancer user.debug : Sending signal 15 to PID 762
+Nov 23 18:11:18 loadbalancer user.debug : Will stop PID 816
+Nov 23 18:11:18 loadbalancer user.debug : Sending signal 15 to PID 816
+Nov 23 18:11:35 loadbalancer user.debug : Will stop PID 870
+Nov 23 18:11:35 loadbalancer user.debug : Sending signal 15 to PID 870
+Nov 23 18:11:44 loadbalancer user.debug : Will stop PID 924
+Nov 23 18:11:44 loadbalancer user.debug : Sending signal 15 to PID 924
+Nov 23 18:11:49 loadbalancer user.debug : Will stop PID 978
+Nov 23 18:11:49 loadbalancer user.debug : Sending signal 15 to PID 978
+Nov 23 18:12:04 loadbalancer user.debug : Will stop PID 1032
+Nov 23 18:12:04 loadbalancer user.debug : Sending signal 15 to PID 1032
+Nov 23 18:12:11 loadbalancer user.debug : Will stop PID 1086
+Nov 23 18:12:11 loadbalancer user.debug : Sending signal 15 to PID 1086
+Nov 23 18:12:53 loadbalancer user.debug : Will stop PID 1140
+Nov 23 18:12:53 loadbalancer user.debug : Sending signal 15 to PID 1140
+Nov 23 18:13:03 loadbalancer user.debug : Will stop PID 1194
+Nov 23 18:13:03 loadbalancer user.debug : Sending signal 15 to PID 1194
+Nov 23 18:13:12 loadbalancer user.debug : Will stop PID 1248
+Nov 23 18:13:12 loadbalancer user.debug : Sending signal 15 to PID 1248
+Nov 23 18:13:17 loadbalancer user.debug : Will stop PID 1302
+Nov 23 18:13:17 loadbalancer user.debug : Sending signal 15 to PID 1302
+Nov 23 18:13:33 loadbalancer user.debug : Will stop PID 1356
+Nov 23 18:13:33 loadbalancer user.debug : Sending signal 15 to PID 1356
+Nov 23 18:13:58 loadbalancer user.debug : Will stop PID 1410
+Nov 23 18:13:58 loadbalancer user.debug : Sending signal 15 to PID 1410
+Nov 23 18:14:08 loadbalancer user.debug : Will stop PID 1464
+Nov 23 18:14:08 loadbalancer user.debug : Sending signal 15 to PID 1464
+Nov 23 18:14:14 loadbalancer user.debug : Will stop PID 1518
+Nov 23 18:14:14 loadbalancer user.debug : Sending signal 15 to PID 1518
+Nov 23 18:14:31 loadbalancer user.debug : Will stop PID 1572
+Nov 23 18:14:31 loadbalancer user.debug : Sending signal 15 to PID 1572
+Nov 23 18:14:37 loadbalancer user.debug : Will stop PID 1626
+Nov 23 18:14:37 loadbalancer user.debug : Sending signal 15 to PID 1626
+Nov 23 18:15:00 loadbalancer cron.info crond[278]: USER root pid 1688 cmd run-parts /etc/periodic/15min
+Nov 23 18:15:19 loadbalancer user.debug : Will stop PID 1680
+Nov 23 18:15:19 loadbalancer user.debug : Sending signal 15 to PID 1680
+Nov 23 18:15:30 loadbalancer user.debug : Will stop PID 1735
+Nov 23 18:15:30 loadbalancer user.debug : Sending signal 15 to PID 1735
+Nov 23 18:15:39 loadbalancer user.debug : Will stop PID 1789
+Nov 23 18:15:39 loadbalancer user.debug : Sending signal 15 to PID 1789
+Nov 23 18:15:43 loadbalancer user.debug : Will stop PID 1843
+Nov 23 18:15:43 loadbalancer user.debug : Sending signal 15 to PID 1843
+Nov 23 18:15:52 loadbalancer user.debug : Will stop PID 1897
+Nov 23 18:15:52 loadbalancer user.debug : Sending signal 15 to PID 1897
+Nov 23 18:16:38 loadbalancer user.debug : Will stop PID 1951
+Nov 23 18:16:38 loadbalancer user.debug : Sending signal 15 to PID 1951
+Nov 23 18:16:49 loadbalancer user.debug : Will stop PID 2005
+Nov 23 18:16:49 loadbalancer user.debug : Sending signal 15 to PID 2005
+Nov 23 18:30:14 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 18:30:14 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 18:30:14 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 18:30:15 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 18:30:15 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 18:30:15 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 18:30:15 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 18:30:15 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 23 18:30:36 loadbalancer user.debug : Will stop PID 411
+Nov 23 18:30:36 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 23 18:30:49 loadbalancer user.debug : Will stop PID 465
+Nov 23 18:30:49 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 23 18:31:08 loadbalancer user.debug : Will stop PID 519
+Nov 23 18:31:08 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 23 18:31:19 loadbalancer user.debug : Will stop PID 573
+Nov 23 18:31:19 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 23 18:31:26 loadbalancer user.debug : Will stop PID 627
+Nov 23 18:31:26 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 23 18:31:57 loadbalancer user.debug : Will stop PID 681
+Nov 23 18:31:57 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 23 18:32:08 loadbalancer user.debug : Will stop PID 735
+Nov 23 18:32:08 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 23 18:32:17 loadbalancer user.debug : Will stop PID 789
+Nov 23 18:32:17 loadbalancer user.debug : Sending signal 15 to PID 789
+Nov 23 18:32:59 loadbalancer user.debug : Will stop PID 843
+Nov 23 18:32:59 loadbalancer user.debug : Sending signal 15 to PID 843
+Nov 23 18:33:10 loadbalancer user.debug : Will stop PID 897
+Nov 23 18:33:10 loadbalancer user.debug : Sending signal 15 to PID 897
+Nov 23 18:33:18 loadbalancer user.debug : Will stop PID 951
+Nov 23 18:33:18 loadbalancer user.debug : Sending signal 15 to PID 951
+Nov 23 18:33:48 loadbalancer user.debug : Will stop PID 1005
+Nov 23 18:33:48 loadbalancer user.debug : Sending signal 15 to PID 1005
+Nov 23 18:33:58 loadbalancer user.debug : Will stop PID 1059
+Nov 23 18:33:58 loadbalancer user.debug : Sending signal 15 to PID 1059
+Nov 23 18:34:21 loadbalancer user.debug : Will stop PID 1113
+Nov 23 18:34:21 loadbalancer user.debug : Sending signal 15 to PID 1113
+Nov 23 18:34:29 loadbalancer user.debug : Will stop PID 1167
+Nov 23 18:34:29 loadbalancer user.debug : Sending signal 15 to PID 1167
+Nov 23 18:39:31 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 18:39:31 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 18:39:31 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 18:39:32 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 18:39:32 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 18:39:32 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 18:39:32 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 18:39:32 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 23 18:40:13 loadbalancer user.debug : Will stop PID 411
+Nov 23 18:40:13 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 23 18:40:23 loadbalancer user.debug : Will stop PID 465
+Nov 23 18:40:23 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 23 18:40:38 loadbalancer user.debug : Will stop PID 519
+Nov 23 18:40:38 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 23 18:40:44 loadbalancer user.debug : Will stop PID 573
+Nov 23 18:40:44 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 23 18:41:02 loadbalancer user.debug : Will stop PID 627
+Nov 23 18:41:02 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 23 18:41:09 loadbalancer user.debug : Will stop PID 681
+Nov 23 18:41:09 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 23 18:41:15 loadbalancer user.debug : Will stop PID 735
+Nov 23 18:41:15 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 23 18:41:33 loadbalancer user.debug : Will stop PID 789
+Nov 23 18:41:33 loadbalancer user.debug : Sending signal 15 to PID 789
+Nov 23 18:41:52 loadbalancer user.debug : Will stop PID 843
+Nov 23 18:41:52 loadbalancer user.debug : Sending signal 15 to PID 843
+Nov 23 18:42:01 loadbalancer user.debug : Will stop PID 897
+Nov 23 18:42:01 loadbalancer user.debug : Sending signal 15 to PID 897
+Nov 23 18:42:10 loadbalancer user.debug : Will stop PID 951
+Nov 23 18:42:10 loadbalancer user.debug : Sending signal 15 to PID 951
+Nov 23 18:42:16 loadbalancer user.debug : Will stop PID 1005
+Nov 23 18:42:16 loadbalancer user.debug : Sending signal 15 to PID 1005
+Nov 23 18:42:58 loadbalancer user.debug : Will stop PID 1059
+Nov 23 18:42:58 loadbalancer user.debug : Sending signal 15 to PID 1059
+Nov 23 18:43:09 loadbalancer user.debug : Will stop PID 1113
+Nov 23 18:43:09 loadbalancer user.debug : Sending signal 15 to PID 1113
+Nov 23 18:43:19 loadbalancer user.debug : Will stop PID 1167
+Nov 23 18:43:19 loadbalancer user.debug : Sending signal 15 to PID 1167
+Nov 23 18:44:02 loadbalancer user.debug : Will stop PID 1221
+Nov 23 18:44:02 loadbalancer user.debug : Sending signal 15 to PID 1221
+Nov 23 18:44:14 loadbalancer user.debug : Will stop PID 1275
+Nov 23 18:44:14 loadbalancer user.debug : Sending signal 15 to PID 1275
+Nov 23 18:44:21 loadbalancer user.debug : Will stop PID 1329
+Nov 23 18:44:21 loadbalancer user.debug : Sending signal 15 to PID 1329
+Nov 23 18:44:57 loadbalancer user.debug : Will stop PID 1383
+Nov 23 18:44:57 loadbalancer user.debug : Sending signal 15 to PID 1383
+Nov 23 18:45:00 loadbalancer cron.info crond[278]: USER root pid 1445 cmd run-parts /etc/periodic/15min
+Nov 23 18:45:06 loadbalancer user.debug : Will stop PID 1437
+Nov 23 18:45:06 loadbalancer user.debug : Sending signal 15 to PID 1437
+Nov 23 18:45:14 loadbalancer user.debug : Will stop PID 1492
+Nov 23 18:45:14 loadbalancer user.debug : Sending signal 15 to PID 1492
+Nov 23 18:45:31 loadbalancer user.debug : Will stop PID 1546
+Nov 23 18:45:31 loadbalancer user.debug : Sending signal 15 to PID 1546
+Nov 23 18:46:02 loadbalancer user.debug : Will stop PID 1600
+Nov 23 18:46:02 loadbalancer user.debug : Sending signal 15 to PID 1600
+Nov 23 18:46:15 loadbalancer user.debug : Will stop PID 1654
+Nov 23 18:46:15 loadbalancer user.debug : Sending signal 15 to PID 1654
+Nov 23 19:12:15 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 19:12:15 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 19:12:15 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 19:12:16 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 19:12:16 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 19:12:16 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 19:12:16 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 19:12:16 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 23 19:12:57 loadbalancer user.debug : Will stop PID 411
+Nov 23 19:12:57 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 23 19:13:08 loadbalancer user.debug : Will stop PID 465
+Nov 23 19:13:08 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 23 19:13:26 loadbalancer user.debug : Will stop PID 519
+Nov 23 19:13:26 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 23 19:13:37 loadbalancer user.debug : Will stop PID 573
+Nov 23 19:13:37 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 23 19:13:50 loadbalancer user.debug : Will stop PID 627
+Nov 23 19:13:50 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 23 19:14:11 loadbalancer user.debug : Will stop PID 681
+Nov 23 19:14:11 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 23 19:14:22 loadbalancer user.debug : Will stop PID 735
+Nov 23 19:14:22 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 23 19:14:32 loadbalancer user.debug : Will stop PID 789
+Nov 23 19:14:32 loadbalancer user.debug : Sending signal 15 to PID 789
+Nov 23 19:15:00 loadbalancer cron.info crond[278]: USER root pid 851 cmd run-parts /etc/periodic/15min
+Nov 23 19:15:03 loadbalancer user.debug : Will stop PID 843
+Nov 23 19:15:03 loadbalancer user.debug : Sending signal 15 to PID 843
+Nov 23 19:15:11 loadbalancer user.debug : Will stop PID 898
+Nov 23 19:15:11 loadbalancer user.debug : Sending signal 15 to PID 898
+Nov 23 19:15:17 loadbalancer user.debug : Will stop PID 952
+Nov 23 19:15:17 loadbalancer user.debug : Sending signal 15 to PID 952
+Nov 23 19:15:52 loadbalancer user.debug : Will stop PID 1006
+Nov 23 19:15:52 loadbalancer user.debug : Sending signal 15 to PID 1006
+Nov 23 19:16:03 loadbalancer user.debug : Will stop PID 1060
+Nov 23 19:16:03 loadbalancer user.debug : Sending signal 15 to PID 1060
+Nov 23 19:16:11 loadbalancer user.debug : Will stop PID 1114
+Nov 23 19:16:11 loadbalancer user.debug : Sending signal 15 to PID 1114
+Nov 23 19:16:54 loadbalancer user.debug : Will stop PID 1168
+Nov 23 19:16:54 loadbalancer user.debug : Sending signal 15 to PID 1168
+Nov 23 19:17:07 loadbalancer user.debug : Will stop PID 1222
+Nov 23 19:17:07 loadbalancer user.debug : Sending signal 15 to PID 1222
+Nov 23 19:17:16 loadbalancer user.debug : Will stop PID 1276
+Nov 23 19:17:16 loadbalancer user.debug : Sending signal 15 to PID 1276
+Nov 23 19:17:53 loadbalancer user.debug : Will stop PID 1330
+Nov 23 19:17:53 loadbalancer user.debug : Sending signal 15 to PID 1330
+Nov 23 19:18:05 loadbalancer user.debug : Will stop PID 1384
+Nov 23 19:18:05 loadbalancer user.debug : Sending signal 15 to PID 1384
+Nov 23 19:18:09 loadbalancer user.debug : Will stop PID 1438
+Nov 23 19:18:09 loadbalancer user.debug : Sending signal 15 to PID 1438
+Nov 23 19:18:24 loadbalancer user.debug : Will stop PID 1492
+Nov 23 19:18:24 loadbalancer user.debug : Sending signal 15 to PID 1492
+Nov 23 19:18:29 loadbalancer user.debug : Will stop PID 1546
+Nov 23 19:18:29 loadbalancer user.debug : Sending signal 15 to PID 1546
+Nov 23 19:19:00 loadbalancer user.debug : Will stop PID 1600
+Nov 23 19:19:00 loadbalancer user.debug : Sending signal 15 to PID 1600
+Nov 23 19:19:14 loadbalancer user.debug : Will stop PID 1654
+Nov 23 19:19:14 loadbalancer user.debug : Sending signal 15 to PID 1654
+Nov 23 19:19:27 loadbalancer user.debug : Will stop PID 1708
+Nov 23 19:19:27 loadbalancer user.debug : Sending signal 15 to PID 1708
+Nov 23 19:19:30 loadbalancer user.debug : Will stop PID 1762
+Nov 23 19:19:30 loadbalancer user.debug : Sending signal 15 to PID 1762
+Nov 23 19:19:45 loadbalancer user.debug : Will stop PID 1816
+Nov 23 19:19:46 loadbalancer user.debug : Sending signal 15 to PID 1816
+Nov 23 19:20:32 loadbalancer user.debug : Will stop PID 1870
+Nov 23 19:20:32 loadbalancer user.debug : Sending signal 15 to PID 1870
+Nov 23 19:20:44 loadbalancer user.debug : Will stop PID 1924
+Nov 23 19:20:44 loadbalancer user.debug : Sending signal 15 to PID 1924
+Nov 23 19:45:28 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 19:45:28 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 19:45:28 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 19:45:29 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 19:45:29 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 19:45:29 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 19:45:29 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 19:45:29 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 23 19:45:44 loadbalancer user.debug : Will stop PID 421
+Nov 23 19:45:44 loadbalancer user.debug : Sending signal 15 to PID 421
+Nov 23 19:45:54 loadbalancer user.debug : Will stop PID 475
+Nov 23 19:45:54 loadbalancer user.debug : Sending signal 15 to PID 475
+Nov 23 19:45:59 loadbalancer user.debug : Will stop PID 529
+Nov 23 19:45:59 loadbalancer user.debug : Sending signal 15 to PID 529
+Nov 23 19:46:13 loadbalancer user.debug : Will stop PID 583
+Nov 23 19:46:13 loadbalancer user.debug : Sending signal 15 to PID 583
+Nov 23 19:46:18 loadbalancer user.debug : Will stop PID 637
+Nov 23 19:46:18 loadbalancer user.debug : Sending signal 15 to PID 637
+Nov 23 19:46:50 loadbalancer user.debug : Will stop PID 691
+Nov 23 19:46:50 loadbalancer user.debug : Sending signal 15 to PID 691
+Nov 23 19:46:59 loadbalancer user.debug : Will stop PID 745
+Nov 23 19:46:59 loadbalancer user.debug : Sending signal 15 to PID 745
+Nov 23 19:47:03 loadbalancer user.debug : Will stop PID 799
+Nov 23 19:47:03 loadbalancer user.debug : Sending signal 15 to PID 799
+Nov 23 19:47:15 loadbalancer user.debug : Will stop PID 853
+Nov 23 19:47:15 loadbalancer user.debug : Sending signal 15 to PID 853
+Nov 23 19:47:19 loadbalancer user.debug : Will stop PID 907
+Nov 23 19:47:19 loadbalancer user.debug : Sending signal 15 to PID 907
+Nov 23 19:47:30 loadbalancer user.debug : Will stop PID 961
+Nov 23 19:47:30 loadbalancer user.debug : Sending signal 15 to PID 961
+Nov 23 19:47:41 loadbalancer user.debug : Will stop PID 1015
+Nov 23 19:47:41 loadbalancer user.debug : Sending signal 15 to PID 1015
+Nov 23 19:47:47 loadbalancer user.debug : Will stop PID 1069
+Nov 23 19:47:47 loadbalancer user.debug : Sending signal 15 to PID 1069
+Nov 23 19:48:05 loadbalancer user.debug : Will stop PID 1123
+Nov 23 19:48:05 loadbalancer user.debug : Sending signal 15 to PID 1123
+Nov 23 19:48:11 loadbalancer user.debug : Will stop PID 1177
+Nov 23 19:48:11 loadbalancer user.debug : Sending signal 15 to PID 1177
+Nov 23 19:48:30 loadbalancer user.debug : Will stop PID 1231
+Nov 23 19:48:30 loadbalancer user.debug : Sending signal 15 to PID 1231
+Nov 23 19:48:36 loadbalancer user.debug : Will stop PID 1285
+Nov 23 19:48:36 loadbalancer user.debug : Sending signal 15 to PID 1285
+Nov 23 19:48:49 loadbalancer user.debug : Will stop PID 1339
+Nov 23 19:48:49 loadbalancer user.debug : Sending signal 15 to PID 1339
+Nov 23 19:48:54 loadbalancer user.debug : Will stop PID 1393
+Nov 23 19:48:54 loadbalancer user.debug : Sending signal 15 to PID 1393
+Nov 23 19:49:04 loadbalancer user.debug : Will stop PID 1447
+Nov 23 19:49:04 loadbalancer user.debug : Sending signal 15 to PID 1447
+Nov 23 19:49:16 loadbalancer user.debug : Will stop PID 1501
+Nov 23 19:49:16 loadbalancer user.debug : Sending signal 15 to PID 1501
+Nov 23 19:49:23 loadbalancer user.debug : Will stop PID 1555
+Nov 23 19:49:23 loadbalancer user.debug : Sending signal 15 to PID 1555
+Nov 23 19:49:34 loadbalancer user.debug : Will stop PID 1609
+Nov 23 19:49:34 loadbalancer user.debug : Sending signal 15 to PID 1609
+Nov 23 19:49:41 loadbalancer user.debug : Will stop PID 1663
+Nov 23 19:49:41 loadbalancer user.debug : Sending signal 15 to PID 1663
+Nov 23 19:49:53 loadbalancer user.debug : Will stop PID 1717
+Nov 23 19:49:53 loadbalancer user.debug : Sending signal 15 to PID 1717
+Nov 23 19:49:58 loadbalancer user.debug : Will stop PID 1771
+Nov 23 19:49:58 loadbalancer user.debug : Sending signal 15 to PID 1771
+Nov 23 19:50:10 loadbalancer user.debug : Will stop PID 1825
+Nov 23 19:50:10 loadbalancer user.debug : Sending signal 15 to PID 1825
+Nov 23 19:50:16 loadbalancer user.debug : Will stop PID 1879
+Nov 23 19:50:16 loadbalancer user.debug : Sending signal 15 to PID 1879
+Nov 23 19:50:45 loadbalancer user.debug : Will stop PID 1933
+Nov 23 19:50:45 loadbalancer user.debug : Sending signal 15 to PID 1933
+Nov 23 19:50:49 loadbalancer user.debug : Will stop PID 1987
+Nov 23 19:50:49 loadbalancer user.debug : Sending signal 15 to PID 1987
+Nov 23 19:51:55 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 19:51:55 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 19:51:55 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 19:51:56 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 19:51:56 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 19:51:56 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 19:51:56 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 19:51:56 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 23 19:52:15 loadbalancer user.debug : Will stop PID 411
+Nov 23 19:52:15 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 23 19:52:19 loadbalancer user.debug : Will stop PID 465
+Nov 23 19:52:19 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 23 19:52:34 loadbalancer user.debug : Will stop PID 519
+Nov 23 19:52:34 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 23 19:52:37 loadbalancer user.debug : Will stop PID 573
+Nov 23 19:52:37 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 23 19:52:46 loadbalancer user.debug : Will stop PID 627
+Nov 23 19:52:46 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 23 19:52:49 loadbalancer user.debug : Will stop PID 681
+Nov 23 19:52:49 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 23 19:52:58 loadbalancer user.debug : Will stop PID 735
+Nov 23 19:52:58 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 23 19:53:07 loadbalancer user.debug : Will stop PID 789
+Nov 23 19:53:07 loadbalancer user.debug : Sending signal 15 to PID 789
+Nov 23 19:53:12 loadbalancer user.debug : Will stop PID 843
+Nov 23 19:53:12 loadbalancer user.debug : Sending signal 15 to PID 843
+Nov 23 19:53:24 loadbalancer user.debug : Will stop PID 897
+Nov 23 19:53:24 loadbalancer user.debug : Sending signal 15 to PID 897
+Nov 23 19:54:07 loadbalancer user.debug : Will stop PID 951
+Nov 23 19:54:07 loadbalancer user.debug : Sending signal 15 to PID 951
+Nov 23 19:54:14 loadbalancer user.debug : Will stop PID 1005
+Nov 23 19:54:14 loadbalancer user.debug : Sending signal 15 to PID 1005
+Nov 23 19:54:27 loadbalancer user.debug : Will stop PID 1059
+Nov 23 19:54:27 loadbalancer user.debug : Sending signal 15 to PID 1059
+Nov 23 19:54:30 loadbalancer user.debug : Will stop PID 1113
+Nov 23 19:54:30 loadbalancer user.debug : Sending signal 15 to PID 1113
+Nov 23 19:59:07 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 23 19:59:07 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 23 19:59:07 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 23 19:59:08 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 23 19:59:08 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 23 19:59:08 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 23 19:59:08 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 23 19:59:08 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 23 19:59:34 loadbalancer user.debug : Will stop PID 406
+Nov 23 19:59:34 loadbalancer user.debug : Sending signal 15 to PID 406
+Nov 23 19:59:37 loadbalancer user.debug : Will stop PID 460
+Nov 23 19:59:37 loadbalancer user.debug : Sending signal 15 to PID 460
+Nov 23 19:59:48 loadbalancer user.debug : Will stop PID 514
+Nov 23 19:59:48 loadbalancer user.debug : Sending signal 15 to PID 514
+Nov 23 19:59:51 loadbalancer user.debug : Will stop PID 568
+Nov 23 19:59:51 loadbalancer user.debug : Sending signal 15 to PID 568
+Nov 23 20:00:00 loadbalancer cron.info crond[278]: USER root pid 630 cmd run-parts /etc/periodic/15min
+Nov 23 20:00:00 loadbalancer cron.info crond[278]: USER root pid 631 cmd run-parts /etc/periodic/hourly
+Nov 23 20:00:08 loadbalancer user.debug : Will stop PID 622
+Nov 23 20:00:08 loadbalancer user.debug : Sending signal 15 to PID 622
+Nov 23 20:00:13 loadbalancer user.debug : Will stop PID 678
+Nov 23 20:00:13 loadbalancer user.debug : Sending signal 15 to PID 678
+Nov 23 20:00:17 loadbalancer user.debug : Will stop PID 732
+Nov 23 20:00:17 loadbalancer user.debug : Sending signal 15 to PID 732
+Nov 23 20:00:31 loadbalancer user.debug : Will stop PID 786
+Nov 23 20:00:31 loadbalancer user.debug : Sending signal 15 to PID 786
+Nov 23 20:00:37 loadbalancer user.debug : Will stop PID 840
+Nov 23 20:00:37 loadbalancer user.debug : Sending signal 15 to PID 840
+Nov 23 20:00:48 loadbalancer user.debug : Will stop PID 894
+Nov 23 20:00:48 loadbalancer user.debug : Sending signal 15 to PID 894
+Nov 23 20:00:52 loadbalancer user.debug : Will stop PID 948
+Nov 23 20:00:52 loadbalancer user.debug : Sending signal 15 to PID 948
+Nov 23 20:01:05 loadbalancer user.debug : Will stop PID 1002
+Nov 23 20:01:05 loadbalancer user.debug : Sending signal 15 to PID 1002
+Nov 23 20:01:09 loadbalancer user.debug : Will stop PID 1056
+Nov 23 20:01:09 loadbalancer user.debug : Sending signal 15 to PID 1056
+Nov 23 20:01:21 loadbalancer user.debug : Will stop PID 1110
+Nov 23 20:01:21 loadbalancer user.debug : Sending signal 15 to PID 1110
+Nov 23 20:01:25 loadbalancer user.debug : Will stop PID 1164
+Nov 23 20:01:25 loadbalancer user.debug : Sending signal 15 to PID 1164
+Nov 23 20:01:34 loadbalancer user.debug : Will stop PID 1218
+Nov 23 20:01:34 loadbalancer user.debug : Sending signal 15 to PID 1218
+Nov 23 20:01:38 loadbalancer user.debug : Will stop PID 1272
+Nov 23 20:01:38 loadbalancer user.debug : Sending signal 15 to PID 1272
+Nov 23 20:01:50 loadbalancer user.debug : Will stop PID 1326
+Nov 23 20:01:50 loadbalancer user.debug : Sending signal 15 to PID 1326
+Nov 23 20:02:05 loadbalancer user.debug : Will stop PID 1380
+Nov 23 20:02:05 loadbalancer user.debug : Sending signal 15 to PID 1380
+Nov 23 20:02:12 loadbalancer user.debug : Will stop PID 1434
+Nov 23 20:02:12 loadbalancer user.debug : Sending signal 15 to PID 1434
+Nov 23 20:02:16 loadbalancer user.debug : Will stop PID 1488
+Nov 23 20:02:16 loadbalancer user.debug : Sending signal 15 to PID 1488
+Nov 23 20:02:25 loadbalancer user.debug : Will stop PID 1542
+Nov 23 20:02:25 loadbalancer user.debug : Sending signal 15 to PID 1542
+Nov 23 20:02:29 loadbalancer user.debug : Will stop PID 1596
+Nov 23 20:02:29 loadbalancer user.debug : Sending signal 15 to PID 1596
+Nov 23 20:02:38 loadbalancer user.debug : Will stop PID 1650
+Nov 23 20:02:38 loadbalancer user.debug : Sending signal 15 to PID 1650
+Nov 23 20:02:42 loadbalancer user.debug : Will stop PID 1704
+Nov 23 20:02:42 loadbalancer user.debug : Sending signal 15 to PID 1704
+Nov 23 20:03:00 loadbalancer user.debug : Will stop PID 1758
+Nov 23 20:03:00 loadbalancer user.debug : Sending signal 15 to PID 1758
+Nov 23 20:03:08 loadbalancer user.debug : Will stop PID 1812
+Nov 23 20:03:08 loadbalancer user.debug : Sending signal 15 to PID 1812
+Nov 24 17:29:30 loadbalancer cron.err crond[278]: time disparity of 1286 minutes detected
+Nov 24 17:30:00 loadbalancer cron.info crond[278]: USER root pid 1874 cmd run-parts /etc/periodic/15min
+Nov 24 17:45:00 loadbalancer cron.info crond[278]: USER root pid 1875 cmd run-parts /etc/periodic/15min
+Nov 24 18:00:00 loadbalancer cron.info crond[278]: USER root pid 1885 cmd run-parts /etc/periodic/15min
+Nov 24 18:00:00 loadbalancer cron.info crond[278]: USER root pid 1886 cmd run-parts /etc/periodic/hourly
+Nov 24 18:15:00 loadbalancer cron.info crond[278]: USER root pid 1887 cmd run-parts /etc/periodic/15min
+Nov 24 18:30:00 loadbalancer cron.info crond[278]: USER root pid 1897 cmd run-parts /etc/periodic/15min
+Nov 24 18:45:00 loadbalancer cron.info crond[278]: USER root pid 1898 cmd run-parts /etc/periodic/15min
+Nov 24 19:00:00 loadbalancer cron.info crond[278]: USER root pid 1899 cmd run-parts /etc/periodic/15min
+Nov 24 19:00:00 loadbalancer cron.info crond[278]: USER root pid 1900 cmd run-parts /etc/periodic/hourly
+Nov 24 19:15:00 loadbalancer cron.info crond[278]: USER root pid 1910 cmd run-parts /etc/periodic/15min
+Nov 24 19:30:00 loadbalancer cron.info crond[278]: USER root pid 1911 cmd run-parts /etc/periodic/15min
+Nov 24 19:45:00 loadbalancer cron.info crond[278]: USER root pid 1921 cmd run-parts /etc/periodic/15min
+Nov 24 20:00:00 loadbalancer cron.info crond[278]: USER root pid 1922 cmd run-parts /etc/periodic/15min
+Nov 24 20:00:00 loadbalancer cron.info crond[278]: USER root pid 1923 cmd run-parts /etc/periodic/hourly
+Nov 24 20:15:00 loadbalancer cron.info crond[278]: USER root pid 1933 cmd run-parts /etc/periodic/15min
+Nov 24 20:30:00 loadbalancer cron.info crond[278]: USER root pid 1934 cmd run-parts /etc/periodic/15min
+Nov 24 20:45:00 loadbalancer cron.info crond[278]: USER root pid 1944 cmd run-parts /etc/periodic/15min
+Nov 24 20:48:26 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 20:48:26 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 20:48:26 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 20:48:27 loadbalancer daemon.info init: starting pid 401, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 20:48:27 loadbalancer daemon.info init: starting pid 402, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 20:48:27 loadbalancer daemon.info init: starting pid 403, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 20:48:27 loadbalancer daemon.info init: starting pid 404, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 20:48:27 loadbalancer daemon.info init: starting pid 405, tty '': '/sbin/getty 38400 console'
+Nov 24 20:48:55 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 20:48:55 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 20:48:55 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 20:48:56 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 20:48:56 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 20:48:56 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 20:48:56 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 20:48:56 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 24 20:49:12 loadbalancer user.debug : Will stop PID 411
+Nov 24 20:49:12 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 24 20:49:38 loadbalancer user.debug : Will stop PID 465
+Nov 24 20:49:38 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 24 20:49:44 loadbalancer user.debug : Will stop PID 519
+Nov 24 20:49:44 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 24 20:50:08 loadbalancer user.debug : Will stop PID 573
+Nov 24 20:50:08 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 24 20:50:14 loadbalancer user.debug : Will stop PID 627
+Nov 24 20:50:14 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 24 20:50:19 loadbalancer user.debug : Will stop PID 681
+Nov 24 20:50:19 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 24 20:50:37 loadbalancer user.debug : Will stop PID 735
+Nov 24 20:50:37 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 24 20:50:44 loadbalancer user.debug : Will stop PID 789
+Nov 24 20:50:44 loadbalancer user.debug : Sending signal 15 to PID 789
+Nov 24 20:50:55 loadbalancer user.debug : Will stop PID 843
+Nov 24 20:50:55 loadbalancer user.debug : Sending signal 15 to PID 843
+Nov 24 20:51:00 loadbalancer user.debug : Will stop PID 897
+Nov 24 20:51:00 loadbalancer user.debug : Sending signal 15 to PID 897
+Nov 24 20:51:19 loadbalancer user.debug : Will stop PID 951
+Nov 24 20:51:19 loadbalancer user.debug : Sending signal 15 to PID 951
+Nov 24 20:51:25 loadbalancer user.debug : Will stop PID 1005
+Nov 24 20:51:25 loadbalancer user.debug : Sending signal 15 to PID 1005
+Nov 24 20:51:44 loadbalancer user.debug : Will stop PID 1059
+Nov 24 20:51:44 loadbalancer user.debug : Sending signal 15 to PID 1059
+Nov 24 20:51:51 loadbalancer user.debug : Will stop PID 1113
+Nov 24 20:51:51 loadbalancer user.debug : Sending signal 15 to PID 1113
+Nov 24 20:52:03 loadbalancer user.debug : Will stop PID 1167
+Nov 24 20:52:03 loadbalancer user.debug : Sending signal 15 to PID 1167
+Nov 24 20:52:09 loadbalancer user.debug : Will stop PID 1221
+Nov 24 20:52:09 loadbalancer user.debug : Sending signal 15 to PID 1221
+Nov 24 20:52:19 loadbalancer user.debug : Will stop PID 1275
+Nov 24 20:52:19 loadbalancer user.debug : Sending signal 15 to PID 1275
+Nov 24 20:52:24 loadbalancer user.debug : Will stop PID 1329
+Nov 24 20:52:24 loadbalancer user.debug : Sending signal 15 to PID 1329
+Nov 24 20:52:34 loadbalancer user.debug : Will stop PID 1383
+Nov 24 20:52:34 loadbalancer user.debug : Sending signal 15 to PID 1383
+Nov 24 20:52:39 loadbalancer user.debug : Will stop PID 1437
+Nov 24 20:52:39 loadbalancer user.debug : Sending signal 15 to PID 1437
+Nov 24 20:52:50 loadbalancer user.debug : Will stop PID 1491
+Nov 24 20:52:50 loadbalancer user.debug : Sending signal 15 to PID 1491
+Nov 24 20:52:55 loadbalancer user.debug : Will stop PID 1545
+Nov 24 20:52:55 loadbalancer user.debug : Sending signal 15 to PID 1545
+Nov 24 20:53:04 loadbalancer user.debug : Will stop PID 1599
+Nov 24 20:53:04 loadbalancer user.debug : Sending signal 15 to PID 1599
+Nov 24 20:53:34 loadbalancer user.debug : Will stop PID 1653
+Nov 24 20:53:34 loadbalancer user.debug : Sending signal 15 to PID 1653
+Nov 24 20:53:46 loadbalancer user.debug : Will stop PID 1707
+Nov 24 20:53:46 loadbalancer user.debug : Sending signal 15 to PID 1707
+Nov 24 20:53:59 loadbalancer user.debug : Will stop PID 1761
+Nov 24 20:53:59 loadbalancer user.debug : Sending signal 15 to PID 1761
+Nov 24 20:54:22 loadbalancer user.debug : Will stop PID 1815
+Nov 24 20:54:22 loadbalancer user.debug : Sending signal 15 to PID 1815
+Nov 24 21:00:00 loadbalancer cron.info crond[278]: USER root pid 1877 cmd run-parts /etc/periodic/15min
+Nov 24 21:00:00 loadbalancer cron.info crond[278]: USER root pid 1878 cmd run-parts /etc/periodic/hourly
+Nov 24 21:09:07 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 21:09:07 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 21:09:07 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 21:09:08 loadbalancer daemon.info init: starting pid 391, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 21:09:08 loadbalancer daemon.info init: starting pid 392, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 21:09:08 loadbalancer daemon.info init: starting pid 393, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 21:09:08 loadbalancer daemon.info init: starting pid 394, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 21:09:08 loadbalancer daemon.info init: starting pid 395, tty '': '/sbin/getty 38400 console'
+Nov 24 21:09:54 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 21:09:54 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 21:09:54 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 21:09:56 loadbalancer daemon.info init: starting pid 406, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 21:09:56 loadbalancer daemon.info init: starting pid 407, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 21:09:56 loadbalancer daemon.info init: starting pid 408, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 21:09:56 loadbalancer daemon.info init: starting pid 409, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 21:09:56 loadbalancer daemon.info init: starting pid 410, tty '': '/sbin/getty 38400 console'
+Nov 24 21:10:11 loadbalancer user.debug : Will stop PID 431
+Nov 24 21:10:11 loadbalancer user.debug : Sending signal 15 to PID 431
+Nov 24 21:10:28 loadbalancer user.debug : Will stop PID 485
+Nov 24 21:10:28 loadbalancer user.debug : Sending signal 15 to PID 485
+Nov 24 21:10:39 loadbalancer user.debug : Will stop PID 539
+Nov 24 21:10:39 loadbalancer user.debug : Sending signal 15 to PID 539
+Nov 24 21:10:57 loadbalancer user.debug : Will stop PID 593
+Nov 24 21:10:57 loadbalancer user.debug : Sending signal 15 to PID 593
+Nov 24 21:11:10 loadbalancer user.debug : Will stop PID 647
+Nov 24 21:11:10 loadbalancer user.debug : Sending signal 15 to PID 647
+Nov 24 21:11:20 loadbalancer user.debug : Will stop PID 701
+Nov 24 21:11:20 loadbalancer user.debug : Sending signal 15 to PID 701
+Nov 24 21:11:27 loadbalancer user.debug : Will stop PID 755
+Nov 24 21:11:27 loadbalancer user.debug : Sending signal 15 to PID 755
+Nov 24 21:11:58 loadbalancer user.debug : Will stop PID 809
+Nov 24 21:11:58 loadbalancer user.debug : Sending signal 15 to PID 809
+Nov 24 21:12:12 loadbalancer user.debug : Will stop PID 863
+Nov 24 21:12:12 loadbalancer user.debug : Sending signal 15 to PID 863
+Nov 24 21:12:29 loadbalancer user.debug : Will stop PID 917
+Nov 24 21:12:29 loadbalancer user.debug : Sending signal 15 to PID 917
+Nov 24 21:12:53 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 21:12:53 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 21:12:53 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 21:12:55 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 21:12:55 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 21:12:55 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 21:12:55 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 21:12:55 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 24 21:13:19 loadbalancer user.debug : Will stop PID 411
+Nov 24 21:13:19 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 24 21:13:28 loadbalancer user.debug : Will stop PID 465
+Nov 24 21:13:28 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 24 21:13:45 loadbalancer user.debug : Will stop PID 519
+Nov 24 21:13:45 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 24 21:14:10 loadbalancer user.debug : Will stop PID 573
+Nov 24 21:14:10 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 24 21:14:20 loadbalancer user.debug : Will stop PID 627
+Nov 24 21:14:20 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 24 21:14:30 loadbalancer user.debug : Will stop PID 681
+Nov 24 21:14:30 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 24 21:14:36 loadbalancer user.debug : Will stop PID 735
+Nov 24 21:14:36 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 24 21:15:00 loadbalancer cron.info crond[278]: USER root pid 797 cmd run-parts /etc/periodic/15min
+Nov 24 21:15:18 loadbalancer user.debug : Will stop PID 789
+Nov 24 21:15:18 loadbalancer user.debug : Sending signal 15 to PID 789
+Nov 24 21:15:44 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 21:15:44 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 21:15:44 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 21:15:45 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 21:15:45 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 21:15:45 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 21:15:45 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 21:15:45 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 24 21:16:01 loadbalancer user.debug : Will stop PID 411
+Nov 24 21:16:01 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 24 21:16:44 loadbalancer user.debug : Will stop PID 465
+Nov 24 21:16:44 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 24 21:17:14 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 21:17:14 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 21:17:14 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 21:17:16 loadbalancer daemon.info init: starting pid 391, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 21:17:16 loadbalancer daemon.info init: starting pid 392, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 21:17:16 loadbalancer daemon.info init: starting pid 393, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 21:17:16 loadbalancer daemon.info init: starting pid 394, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 21:17:16 loadbalancer daemon.info init: starting pid 395, tty '': '/sbin/getty 38400 console'
+Nov 24 21:17:31 loadbalancer user.debug : Will stop PID 416
+Nov 24 21:17:31 loadbalancer user.debug : Sending signal 15 to PID 416
+Nov 24 21:19:13 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 21:19:13 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 21:19:13 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 21:19:15 loadbalancer daemon.info init: starting pid 406, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 21:19:15 loadbalancer daemon.info init: starting pid 407, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 21:19:15 loadbalancer daemon.info init: starting pid 408, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 21:19:15 loadbalancer daemon.info init: starting pid 409, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 21:19:15 loadbalancer daemon.info init: starting pid 410, tty '': '/sbin/getty 38400 console'
+Nov 24 21:19:30 loadbalancer user.debug : Will stop PID 431
+Nov 24 21:19:30 loadbalancer user.debug : Sending signal 15 to PID 431
+Nov 24 21:20:05 loadbalancer user.debug : Will stop PID 485
+Nov 24 21:20:05 loadbalancer user.debug : Sending signal 15 to PID 485
+Nov 24 21:20:16 loadbalancer user.debug : Will stop PID 539
+Nov 24 21:20:16 loadbalancer user.debug : Sending signal 15 to PID 539
+Nov 24 21:20:28 loadbalancer user.debug : Will stop PID 593
+Nov 24 21:20:28 loadbalancer user.debug : Sending signal 15 to PID 593
+Nov 24 21:20:35 loadbalancer user.debug : Will stop PID 647
+Nov 24 21:20:35 loadbalancer user.debug : Sending signal 15 to PID 647
+Nov 24 21:20:46 loadbalancer user.debug : Will stop PID 701
+Nov 24 21:20:46 loadbalancer user.debug : Sending signal 15 to PID 701
+Nov 24 21:21:10 loadbalancer user.debug : Will stop PID 755
+Nov 24 21:21:10 loadbalancer user.debug : Sending signal 15 to PID 755
+Nov 24 21:21:32 loadbalancer user.debug : Will stop PID 809
+Nov 24 21:21:32 loadbalancer user.debug : Sending signal 15 to PID 809
+Nov 24 21:21:43 loadbalancer user.debug : Will stop PID 863
+Nov 24 21:21:43 loadbalancer user.debug : Sending signal 15 to PID 863
+Nov 24 21:21:54 loadbalancer user.debug : Will stop PID 917
+Nov 24 21:21:54 loadbalancer user.debug : Sending signal 15 to PID 917
+Nov 24 21:22:30 loadbalancer user.debug : Will stop PID 971
+Nov 24 21:22:30 loadbalancer user.debug : Sending signal 15 to PID 971
+Nov 24 21:22:40 loadbalancer user.debug : Will stop PID 1025
+Nov 24 21:22:40 loadbalancer user.debug : Sending signal 15 to PID 1025
+Nov 24 21:22:50 loadbalancer user.debug : Will stop PID 1079
+Nov 24 21:22:50 loadbalancer user.debug : Sending signal 15 to PID 1079
+Nov 24 21:22:56 loadbalancer user.debug : Will stop PID 1133
+Nov 24 21:22:56 loadbalancer user.debug : Sending signal 15 to PID 1133
+Nov 24 21:23:13 loadbalancer user.debug : Will stop PID 1187
+Nov 24 21:23:13 loadbalancer user.debug : Sending signal 15 to PID 1187
+Nov 24 21:23:20 loadbalancer user.debug : Will stop PID 1241
+Nov 24 21:23:20 loadbalancer user.debug : Sending signal 15 to PID 1241
+Nov 24 21:23:44 loadbalancer user.debug : Will stop PID 1295
+Nov 24 21:23:44 loadbalancer user.debug : Sending signal 15 to PID 1295
+Nov 24 21:23:58 loadbalancer user.debug : Will stop PID 1349
+Nov 24 21:23:58 loadbalancer user.debug : Sending signal 15 to PID 1349
+Nov 24 21:24:14 loadbalancer user.debug : Will stop PID 1403
+Nov 24 21:24:14 loadbalancer user.debug : Sending signal 15 to PID 1403
+Nov 24 21:24:24 loadbalancer user.debug : Will stop PID 1457
+Nov 24 21:24:24 loadbalancer user.debug : Sending signal 15 to PID 1457
+Nov 24 21:24:33 loadbalancer user.debug : Will stop PID 1511
+Nov 24 21:24:33 loadbalancer user.debug : Sending signal 15 to PID 1511
+Nov 24 21:24:41 loadbalancer user.debug : Will stop PID 1565
+Nov 24 21:24:41 loadbalancer user.debug : Sending signal 15 to PID 1565
+Nov 24 21:24:51 loadbalancer user.debug : Will stop PID 1619
+Nov 24 21:24:51 loadbalancer user.debug : Sending signal 15 to PID 1619
+Nov 24 21:25:21 loadbalancer user.debug : Will stop PID 1673
+Nov 24 21:25:21 loadbalancer user.debug : Sending signal 15 to PID 1673
+Nov 24 21:25:33 loadbalancer user.debug : Will stop PID 1727
+Nov 24 21:25:33 loadbalancer user.debug : Sending signal 15 to PID 1727
+Nov 24 21:25:41 loadbalancer user.debug : Will stop PID 1781
+Nov 24 21:25:41 loadbalancer user.debug : Sending signal 15 to PID 1781
+Nov 24 21:25:47 loadbalancer user.debug : Will stop PID 1835
+Nov 24 21:25:47 loadbalancer user.debug : Sending signal 15 to PID 1835
+Nov 24 21:25:58 loadbalancer user.debug : Will stop PID 1889
+Nov 24 21:25:58 loadbalancer user.debug : Sending signal 15 to PID 1889
+Nov 24 21:26:04 loadbalancer user.debug : Will stop PID 1943
+Nov 24 21:26:04 loadbalancer user.debug : Sending signal 15 to PID 1943
+Nov 24 21:30:00 loadbalancer cron.info crond[278]: USER root pid 2005 cmd run-parts /etc/periodic/15min
+Nov 24 21:45:00 loadbalancer cron.info crond[278]: USER root pid 2006 cmd run-parts /etc/periodic/15min
+Nov 24 22:00:00 loadbalancer cron.info crond[278]: USER root pid 2016 cmd run-parts /etc/periodic/15min
+Nov 24 22:00:00 loadbalancer cron.info crond[278]: USER root pid 2017 cmd run-parts /etc/periodic/hourly
+Nov 24 22:33:07 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 22:33:07 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 22:33:07 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 22:33:08 loadbalancer daemon.info init: starting pid 386, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 22:33:08 loadbalancer daemon.info init: starting pid 387, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 22:33:08 loadbalancer daemon.info init: starting pid 388, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 22:33:08 loadbalancer daemon.info init: starting pid 389, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 22:33:08 loadbalancer daemon.info init: starting pid 390, tty '': '/sbin/getty 38400 console'
+Nov 24 22:33:24 loadbalancer user.debug : Will stop PID 411
+Nov 24 22:33:24 loadbalancer user.debug : Sending signal 15 to PID 411
+Nov 24 22:33:38 loadbalancer user.debug : Will stop PID 465
+Nov 24 22:33:38 loadbalancer user.debug : Sending signal 15 to PID 465
+Nov 24 22:33:49 loadbalancer user.debug : Will stop PID 519
+Nov 24 22:33:49 loadbalancer user.debug : Sending signal 15 to PID 519
+Nov 24 22:34:00 loadbalancer user.debug : Will stop PID 573
+Nov 24 22:34:00 loadbalancer user.debug : Sending signal 15 to PID 573
+Nov 24 22:34:32 loadbalancer user.debug : Will stop PID 627
+Nov 24 22:34:32 loadbalancer user.debug : Sending signal 15 to PID 627
+Nov 24 22:34:44 loadbalancer user.debug : Will stop PID 681
+Nov 24 22:34:44 loadbalancer user.debug : Sending signal 15 to PID 681
+Nov 24 22:34:55 loadbalancer user.debug : Will stop PID 735
+Nov 24 22:34:55 loadbalancer user.debug : Sending signal 15 to PID 735
+Nov 24 22:35:03 loadbalancer user.debug : Will stop PID 789
+Nov 24 22:35:03 loadbalancer user.debug : Sending signal 15 to PID 789
+Nov 24 22:35:39 loadbalancer user.debug : Will stop PID 843
+Nov 24 22:35:39 loadbalancer user.debug : Sending signal 15 to PID 843
+Nov 24 22:35:52 loadbalancer user.debug : Will stop PID 897
+Nov 24 22:35:52 loadbalancer user.debug : Sending signal 15 to PID 897
+Nov 24 22:40:52 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 22:40:52 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 22:40:52 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 22:40:54 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 22:40:54 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 22:40:54 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 22:40:54 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 22:40:54 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 24 22:41:09 loadbalancer user.debug : Will stop PID 421
+Nov 24 22:41:09 loadbalancer user.debug : Sending signal 15 to PID 421
+Nov 24 22:41:24 loadbalancer user.debug : Will stop PID 475
+Nov 24 22:41:24 loadbalancer user.debug : Sending signal 15 to PID 475
+Nov 24 22:41:28 loadbalancer user.debug : Will stop PID 529
+Nov 24 22:41:28 loadbalancer user.debug : Sending signal 15 to PID 529
+Nov 24 22:41:43 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 22:41:43 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 22:41:43 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 22:41:45 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 22:41:45 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 22:41:45 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 22:41:45 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 22:41:45 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 24 22:41:59 loadbalancer user.debug : Will stop PID 421
+Nov 24 22:41:59 loadbalancer user.debug : Sending signal 15 to PID 421
+Nov 24 22:42:14 loadbalancer user.debug : Will stop PID 475
+Nov 24 22:42:14 loadbalancer user.debug : Sending signal 15 to PID 475
+Nov 24 22:42:18 loadbalancer user.debug : Will stop PID 529
+Nov 24 22:42:18 loadbalancer user.debug : Sending signal 15 to PID 529
+Nov 24 22:42:58 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 22:42:58 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 22:42:58 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 22:42:59 loadbalancer daemon.info init: starting pid 396, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 22:42:59 loadbalancer daemon.info init: starting pid 397, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 22:42:59 loadbalancer daemon.info init: starting pid 398, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 22:42:59 loadbalancer daemon.info init: starting pid 399, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 22:42:59 loadbalancer daemon.info init: starting pid 400, tty '': '/sbin/getty 38400 console'
+Nov 24 22:43:14 loadbalancer user.debug : Will stop PID 421
+Nov 24 22:43:14 loadbalancer user.debug : Sending signal 15 to PID 421
+Nov 24 22:43:42 loadbalancer user.debug : Will stop PID 475
+Nov 24 22:43:42 loadbalancer user.debug : Sending signal 15 to PID 475
+Nov 24 22:43:53 loadbalancer user.debug : Will stop PID 529
+Nov 24 22:43:53 loadbalancer user.debug : Sending signal 15 to PID 529
+Nov 24 22:44:11 loadbalancer user.debug : Will stop PID 583
+Nov 24 22:44:11 loadbalancer user.debug : Sending signal 15 to PID 583
+Nov 24 22:44:24 loadbalancer user.debug : Will stop PID 637
+Nov 24 22:44:24 loadbalancer user.debug : Sending signal 15 to PID 637
+Nov 24 22:44:39 loadbalancer user.debug : Will stop PID 691
+Nov 24 22:44:39 loadbalancer user.debug : Sending signal 15 to PID 691
+Nov 24 22:44:48 loadbalancer user.debug : Will stop PID 745
+Nov 24 22:44:48 loadbalancer user.debug : Sending signal 15 to PID 745
+Nov 24 22:44:56 loadbalancer user.debug : Will stop PID 799
+Nov 24 22:44:56 loadbalancer user.debug : Sending signal 15 to PID 799
+Nov 24 22:45:00 loadbalancer cron.info crond[278]: USER root pid 861 cmd run-parts /etc/periodic/15min
+Nov 24 22:45:16 loadbalancer user.debug : Will stop PID 853
+Nov 24 22:45:16 loadbalancer user.debug : Sending signal 15 to PID 853
+Nov 24 22:45:25 loadbalancer user.debug : Will stop PID 908
+Nov 24 22:45:25 loadbalancer user.debug : Sending signal 15 to PID 908
+Nov 24 22:45:33 loadbalancer user.debug : Will stop PID 962
+Nov 24 22:45:33 loadbalancer user.debug : Sending signal 15 to PID 962
+Nov 24 22:45:46 loadbalancer user.debug : Will stop PID 1016
+Nov 24 22:45:46 loadbalancer user.debug : Sending signal 15 to PID 1016
+Nov 24 22:46:01 loadbalancer user.debug : Will stop PID 1070
+Nov 24 22:46:01 loadbalancer user.debug : Sending signal 15 to PID 1070
+Nov 24 22:46:10 loadbalancer user.debug : Will stop PID 1124
+Nov 24 22:46:10 loadbalancer user.debug : Sending signal 15 to PID 1124
+Nov 24 22:46:18 loadbalancer user.debug : Will stop PID 1178
+Nov 24 22:46:18 loadbalancer user.debug : Sending signal 15 to PID 1178
+Nov 24 22:46:38 loadbalancer user.debug : Will stop PID 1232
+Nov 24 22:46:38 loadbalancer user.debug : Sending signal 15 to PID 1232
+Nov 24 22:46:47 loadbalancer user.debug : Will stop PID 1286
+Nov 24 22:46:47 loadbalancer user.debug : Sending signal 15 to PID 1286
+Nov 24 22:47:01 loadbalancer user.debug : Will stop PID 1340
+Nov 24 22:47:01 loadbalancer user.debug : Sending signal 15 to PID 1340
+Nov 24 22:47:10 loadbalancer user.debug : Will stop PID 1394
+Nov 24 22:47:10 loadbalancer user.debug : Sending signal 15 to PID 1394
+Nov 24 22:47:26 loadbalancer user.debug : Will stop PID 1448
+Nov 24 22:47:26 loadbalancer user.debug : Sending signal 15 to PID 1448
+Nov 24 22:47:35 loadbalancer user.debug : Will stop PID 1502
+Nov 24 22:47:35 loadbalancer user.debug : Sending signal 15 to PID 1502
+Nov 24 22:47:49 loadbalancer user.debug : Will stop PID 1556
+Nov 24 22:47:49 loadbalancer user.debug : Sending signal 15 to PID 1556
+Nov 24 22:47:58 loadbalancer user.debug : Will stop PID 1610
+Nov 24 22:47:58 loadbalancer user.debug : Sending signal 15 to PID 1610
+Nov 24 22:48:06 loadbalancer user.debug : Will stop PID 1664
+Nov 24 22:48:06 loadbalancer user.debug : Sending signal 15 to PID 1664
+Nov 24 22:48:28 loadbalancer user.debug : Will stop PID 1718
+Nov 24 22:48:28 loadbalancer user.debug : Sending signal 15 to PID 1718
+Nov 24 22:48:37 loadbalancer user.debug : Will stop PID 1772
+Nov 24 22:48:37 loadbalancer user.debug : Sending signal 15 to PID 1772
+Nov 24 22:48:45 loadbalancer user.debug : Will stop PID 1826
+Nov 24 22:48:45 loadbalancer user.debug : Sending signal 15 to PID 1826
+Nov 24 22:48:52 loadbalancer user.debug : Will stop PID 1880
+Nov 24 22:48:52 loadbalancer user.debug : Sending signal 15 to PID 1880
+Nov 24 22:48:58 loadbalancer user.debug : Will stop PID 1934
+Nov 24 22:48:58 loadbalancer user.debug : Sending signal 15 to PID 1934
+Nov 24 22:49:02 loadbalancer user.debug : Will stop PID 1988
+Nov 24 22:49:02 loadbalancer user.debug : Sending signal 15 to PID 1988
+Nov 24 22:49:06 loadbalancer user.debug : Will stop PID 2042
+Nov 24 22:49:06 loadbalancer user.debug : Sending signal 15 to PID 2042
+Nov 24 22:51:25 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 22:51:25 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 22:51:25 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 22:51:26 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 22:51:26 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 22:51:26 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 22:51:26 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 22:51:26 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 24 22:51:42 loadbalancer user.debug : Will stop PID 406
+Nov 24 22:51:42 loadbalancer user.debug : Sending signal 15 to PID 406
+Nov 24 22:52:07 loadbalancer user.debug : Will stop PID 460
+Nov 24 22:52:07 loadbalancer user.debug : Sending signal 15 to PID 460
+Nov 24 22:52:18 loadbalancer user.debug : Will stop PID 514
+Nov 24 22:52:18 loadbalancer user.debug : Sending signal 15 to PID 514
+Nov 24 22:52:36 loadbalancer user.debug : Will stop PID 568
+Nov 24 22:52:36 loadbalancer user.debug : Sending signal 15 to PID 568
+Nov 24 22:52:57 loadbalancer user.debug : Will stop PID 622
+Nov 24 22:52:57 loadbalancer user.debug : Sending signal 15 to PID 622
+Nov 24 22:53:06 loadbalancer user.debug : Will stop PID 676
+Nov 24 22:53:06 loadbalancer user.debug : Sending signal 15 to PID 676
+Nov 24 22:53:22 loadbalancer user.debug : Will stop PID 730
+Nov 24 22:53:22 loadbalancer user.debug : Sending signal 15 to PID 730
+Nov 24 22:53:31 loadbalancer user.debug : Will stop PID 784
+Nov 24 22:53:31 loadbalancer user.debug : Sending signal 15 to PID 784
+Nov 24 22:53:39 loadbalancer user.debug : Will stop PID 838
+Nov 24 22:53:39 loadbalancer user.debug : Sending signal 15 to PID 838
+Nov 24 22:53:59 loadbalancer user.debug : Will stop PID 892
+Nov 24 22:53:59 loadbalancer user.debug : Sending signal 15 to PID 892
+Nov 24 22:54:16 loadbalancer user.debug : Will stop PID 946
+Nov 24 22:54:16 loadbalancer user.debug : Sending signal 15 to PID 946
+Nov 24 22:54:26 loadbalancer user.debug : Will stop PID 1000
+Nov 24 22:54:26 loadbalancer user.debug : Sending signal 15 to PID 1000
+Nov 24 22:54:35 loadbalancer user.debug : Will stop PID 1054
+Nov 24 22:54:35 loadbalancer user.debug : Sending signal 15 to PID 1054
+Nov 24 22:54:49 loadbalancer user.debug : Will stop PID 1108
+Nov 24 22:54:49 loadbalancer user.debug : Sending signal 15 to PID 1108
+Nov 24 22:54:58 loadbalancer user.debug : Will stop PID 1162
+Nov 24 22:54:58 loadbalancer user.debug : Sending signal 15 to PID 1162
+Nov 24 22:55:06 loadbalancer user.debug : Will stop PID 1216
+Nov 24 22:55:06 loadbalancer user.debug : Sending signal 15 to PID 1216
+Nov 24 22:55:12 loadbalancer user.debug : Will stop PID 1270
+Nov 24 22:55:12 loadbalancer user.debug : Sending signal 15 to PID 1270
+Nov 24 22:55:18 loadbalancer user.debug : Will stop PID 1324
+Nov 24 22:55:18 loadbalancer user.debug : Sending signal 15 to PID 1324
+Nov 24 22:55:23 loadbalancer user.debug : Will stop PID 1378
+Nov 24 22:55:23 loadbalancer user.debug : Sending signal 15 to PID 1378
+Nov 24 22:55:27 loadbalancer user.debug : Will stop PID 1432
+Nov 24 22:55:27 loadbalancer user.debug : Sending signal 15 to PID 1432
+Nov 24 22:58:47 loadbalancer syslog.info syslogd started: BusyBox v1.30.1
+Nov 24 22:58:47 loadbalancer daemon.info init: starting pid 257, tty '': '/sbin/openrc default'
+Nov 24 22:58:47 loadbalancer cron.info crond[278]: crond (busybox 1.30.1) started, log level 8
+Nov 24 22:58:48 loadbalancer daemon.info init: starting pid 381, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Nov 24 22:58:48 loadbalancer daemon.info init: starting pid 382, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Nov 24 22:58:48 loadbalancer daemon.info init: starting pid 383, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Nov 24 22:58:48 loadbalancer daemon.info init: starting pid 384, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Nov 24 22:58:48 loadbalancer daemon.info init: starting pid 385, tty '': '/sbin/getty 38400 console'
+Nov 24 22:59:03 loadbalancer user.debug : Will stop PID 406
+Nov 24 22:59:03 loadbalancer user.debug : Sending signal 15 to PID 406
+Nov 24 22:59:25 loadbalancer user.debug : Will stop PID 460
+Nov 24 22:59:25 loadbalancer user.debug : Sending signal 15 to PID 460
+Nov 24 22:59:28 loadbalancer user.debug : Will stop PID 514
+Nov 24 22:59:28 loadbalancer user.debug : Sending signal 15 to PID 514
+Nov 24 22:59:42 loadbalancer user.debug : Will stop PID 568
+Nov 24 22:59:42 loadbalancer user.debug : Sending signal 15 to PID 568
+Nov 24 22:59:46 loadbalancer user.debug : Will stop PID 622
+Nov 24 22:59:46 loadbalancer user.debug : Sending signal 15 to PID 622
+Nov 24 22:59:56 loadbalancer user.debug : Will stop PID 676
+Nov 24 22:59:56 loadbalancer user.debug : Sending signal 15 to PID 676
+Nov 24 23:00:00 loadbalancer cron.info crond[278]: USER root pid 738 cmd run-parts /etc/periodic/15min
+Nov 24 23:00:00 loadbalancer cron.info crond[278]: USER root pid 739 cmd run-parts /etc/periodic/hourly
+Nov 24 23:00:00 loadbalancer user.debug : Will stop PID 730
+Nov 24 23:00:00 loadbalancer user.debug : Sending signal 15 to PID 730
+Nov 24 23:00:09 loadbalancer user.debug : Will stop PID 786
+Nov 24 23:00:09 loadbalancer user.debug : Sending signal 15 to PID 786
+Nov 24 23:00:13 loadbalancer user.debug : Will stop PID 840
+Nov 24 23:00:13 loadbalancer user.debug : Sending signal 15 to PID 840

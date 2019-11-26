@@ -1,0 +1,6 @@
+#!/sbin/openrc-run
+
+command="haproxy"
+command_args="-D"
+pidfile="/run/$RC_SVCNAME.pid"
+command_background="yes"

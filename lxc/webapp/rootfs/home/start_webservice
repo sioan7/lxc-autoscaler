@@ -1,0 +1,10 @@
+#!/sbin/openrc-run
+
+command="python3"
+command_args="/home/api.py"
+pidfile="/run/$RC_SVCNAME.pid"
+command_background="yes"
+depend()
+{
+	need localmount
+}
