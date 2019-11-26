@@ -46,6 +46,24 @@ def refresh_loadbalancer():
     loadbalancer_container.attach_wait(lxc.attach_run_command, ["service", "haproxy", "restart"])
 
 def scale():
+    controller4()
+
+def controller1():
+    stats = monitor.server_stats(loadbalancer_ip)
+    param = int(stats["BACKEND"]["scur"])
+    desired_nr = math.ceil((param + server_capacity_per_sec) / server_capacity_per_sec)
+    delta = desired_nr - len(containers)
+    if delta > 0:
+        for _ in range(delta):
+            start_webapp_container()
+        refresh_loadbalancer()
+    elif delta < 0:
+        container_number = len(containers)
+        c = containers.pop()
+        c.stop()
+        refresh_loadbalancer()
+
+def controller2():
     stats = monitor.server_stats(loadbalancer_ip)
     param = int(stats["BACKEND"]["scur"])
     #param = int(stats["BACKEND"]["rate"])
@@ -57,6 +75,35 @@ def scale():
         refresh_loadbalancer()
     elif delta < 0:
         container_number = len(containers)
+        c = containers.pop()
+        c.stop()
+        refresh_loadbalancer()
+
+def controller3():
+    stats = monitor.server_stats(loadbalancer_ip)
+    param = int(stats["BACKEND"]["rate"])
+    desired_nr = math.ceil((param + 2 * server_capacity_per_sec) / server_capacity_per_sec)
+    delta = desired_nr - len(containers)
+    if delta > 0:
+        for _ in range(delta):
+            start_webapp_container()
+        refresh_loadbalancer()
+    elif delta < 0:
+        container_number = len(containers)
+        c = containers.pop()
+        c.stop()
+        refresh_loadbalancer()
+
+def controller4():
+    stats = monitor.server_stats(loadbalancer_ip)
+    param = int(stats["BACKEND"]["rate"])
+    desired_nr = math.ceil((param + 2 * server_capacity_per_sec) / server_capacity_per_sec)
+    delta = desired_nr - len(containers)
+    if delta > 0:
+        for _ in range(delta):
+            start_webapp_container()
+        refresh_loadbalancer()
+    elif delta < 0:
         c = containers.pop()
         c.stop()
         refresh_loadbalancer()
