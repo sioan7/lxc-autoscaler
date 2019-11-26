@@ -47,8 +47,8 @@ def refresh_loadbalancer():
 
 def scale():
     stats = monitor.server_stats(loadbalancer_ip)
-    #param = int(stats["BACKEND"]["scur"])
-    param = int(stats["BACKEND"]["rate"])
+    param = int(stats["BACKEND"]["scur"])
+    #param = int(stats["BACKEND"]["rate"])
     desired_nr = math.ceil((param + 2 * server_capacity_per_sec) / server_capacity_per_sec)
     delta = desired_nr - len(containers)
     if delta > 0:

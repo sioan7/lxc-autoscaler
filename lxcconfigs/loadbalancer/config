@@ -1,0 +1,43 @@
+# Template used to create this container: /usr/share/lxc/templates/lxc-alpine
+# Parameters passed to the template:
+# Template script checksum (SHA-1): f15fbbfd707511d257271fd956801e4fb934bc41
+# For additional config options, please look at lxc.container.conf(5)
+
+# Uncomment the following line to support nesting containers:
+#lxc.include = /usr/share/lxc/config/nesting.conf
+# (Be aware this has security implications)
+
+#lxc.net.0.type = empty
+#lxc.apparmor.profile = generated
+#lxc.apparmor.allow_nesting = 1
+lxc.net.0.type = veth
+lxc.net.0.link = lxcbr0
+lxc.net.0.flags = up
+lxc.net.0.hwaddr = 00:16:3e:d3:18:fd
+lxc.rootfs.path = dir:/var/lib/lxc/loadbalancer/rootfs
+
+# Specify container architecture.
+lxc.arch = x86_64
+
+# Set hostname.
+lxc.uts.name = loadbalancer
+
+# If something doesn't work, try to comment this out.
+# Dropping sys_admin disables container root from doing a lot of things
+# that could be bad like re-mounting lxc fstab entries rw for example,
+# but also disables some useful things like being able to nfs mount, and
+# things that are already namespaced with ns_capable() kernel checks, like
+# hostname(1).
+lxc.cap.drop = sys_admin
+
+# Comment this out if you have to debug processes by tracing.
+lxc.cap.drop = sys_ptrace
+
+# Comment this out if required by your applications.
+lxc.cap.drop = setpcap
+
+# Include common configuration.
+lxc.include = /usr/share/lxc/config/alpine.common.conf
+
+# Mount shared folder for haproxy config
+lxc.mount.entry = /srv/haproxyconfig etc/haproxy none bind 0 0
