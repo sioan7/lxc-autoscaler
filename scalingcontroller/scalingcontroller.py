@@ -59,14 +59,16 @@ def controller1():
         refresh_loadbalancer()
     elif delta < 0:
         container_number = len(containers)
-        c = containers.pop()
-        c.stop()
+        for i in reversed(range(min(container_number, max(-delta, 0)))):
+            c = containers[i]
+            print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
+            c.stop()
+            containers.pop(i)
         refresh_loadbalancer()
 
 def controller2():
     stats = monitor.server_stats(loadbalancer_ip)
     param = int(stats["BACKEND"]["scur"])
-    #param = int(stats["BACKEND"]["rate"])
     desired_nr = math.ceil((param + 2 * server_capacity_per_sec) / server_capacity_per_sec)
     delta = desired_nr - len(containers)
     if delta > 0:
@@ -75,8 +77,11 @@ def controller2():
         refresh_loadbalancer()
     elif delta < 0:
         container_number = len(containers)
-        c = containers.pop()
-        c.stop()
+        for i in reversed(range(min(container_number, max(-delta, 0)))):
+            c = containers[i]
+            print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
+            c.stop()
+            containers.pop(i)
         refresh_loadbalancer()
 
 def controller3():
@@ -90,8 +95,11 @@ def controller3():
         refresh_loadbalancer()
     elif delta < 0:
         container_number = len(containers)
-        c = containers.pop()
-        c.stop()
+        for i in reversed(range(min(container_number, max(-delta, 0)))):
+            c = containers[i]
+            print(f"Stopping container {c.name} @ {c.get_ips(timeout = 5000)[0]}")
+            c.stop()
+            containers.pop(i)
         refresh_loadbalancer()
 
 def controller4():
